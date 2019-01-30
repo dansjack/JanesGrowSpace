@@ -23,7 +23,7 @@
 
 <!-- START RIGHT COL -->
 <aside>
- <figure><img src="images/gil.jpg" class="tablet" alt="Gil" title="Gil" /></figure>
+ <figure><img src="images/IMG_4554.JPG" class="tablet" alt="Gil" title="Gil" /></figure>
  <h2 id="h_con">Contact Dan</h2>
 <?php include 'includes/simple.php';?>
   <p class="clear-recaptcha"></p>
