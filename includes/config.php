@@ -37,7 +37,7 @@ switch(THIS_PAGE){
 
     case 'contactme.php':
         $title = 'Dan\'s Contact Page!';
-        $logo = "fa-paper-plane-o";
+        $logo = "fas fa-envelope";
         break;
 
     case 'big/index.php':
@@ -47,7 +47,7 @@ switch(THIS_PAGE){
 
     case 'aia.php':
         $title = 'WEB120 Portal - AIA';
-        $logo = "fa-home";
+        $logo = "fas fa-list";
         break;
 
     case 'flowchart.php':
@@ -57,7 +57,7 @@ switch(THIS_PAGE){
 
     case 'fp/index.php':
         $title = 'WEB120 Portal - Final Project';
-        $logo = "fa-home";
+        $logo = "fas fa-handshake";
         break;
 }
 
