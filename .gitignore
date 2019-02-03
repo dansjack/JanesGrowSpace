@@ -14,3 +14,4 @@ node_modules/bootstrap/dist/.DS_Store
 node_modules/bootstrap/js/.DS_Store
 node_modules/bootstrap/scss/.DS_Store
 .DS_Store
+big/includes/credentials.php
