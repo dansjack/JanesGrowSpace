@@ -53,11 +53,6 @@ footer {
         margin:auto;
     }
 
-    section#wholepage {
-        width: 98%;
-        margin: 1em;
-    }
-
     section {
         width:55%;
         float:left;
@@ -108,11 +103,6 @@ footer {
 
 /* TABLET */
 @media all and (min-width:737px) and (max-width:1399px) {
-
-    section#wholepage {
-        width: 98%;
-        margin: 1em;
-    }
 
     section {
         width:55%;
@@ -169,11 +159,6 @@ footer {
 
 /* PHONE */
 @media all and (max-width:736px) {
-
-    section#wholepage {
-        width: 98%;
-        overflow: scroll;
-    }
 
     form, section, footer, div.contact-feedback {
         margin: 1em;
