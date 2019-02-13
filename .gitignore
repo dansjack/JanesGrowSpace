@@ -15,3 +15,10 @@ node_modules/bootstrap/js/.DS_Store
 node_modules/bootstrap/scss/.DS_Store
 .DS_Store
 big/includes/credentials.php
+test/css/style.css
+test/fp_test.css
+test/fp_test.html
+test/index.html
+test/test.css
+test/test.html
+test/test2.html
