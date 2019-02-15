@@ -58,11 +58,10 @@ div.embed-container iframe {
     background: #F9E7E7;
 }
 .col:first-child { margin-left: 0; }
-/*.col:last-child { margin-right: 1%; }*/
+/*.col:last-child { margin-right: 1%; }
 
 /*  GROUPING  */
-.group:before,
-.group:after {
+.group:before, .group:after {
     content:"";
     display:table;
 }
