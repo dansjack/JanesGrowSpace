@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="css/nav.css" />
   <link rel="stylesheet" href="css/fp.css" />
   <link rel="stylesheet" href="css/form.css" />
+  <link rel="stylesheet" href="css/grid.css" />
   <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates|Ubuntu" rel="stylesheet">
 </head>
 
@@ -15,17 +16,19 @@
 <!-- START WRAPPER -->
 <div class="wrapper">
   <div class="section group">
-    <header class="col span_6_of_6">
+    <header class="col span_6_of_6" id="header">
         <h1><a href="index.php">Jane's grow space</a></h1>
-        <nav id="navbar">
-          <a href="index.php"><span>Home</span></a>
-          <a href="plants.php"><span>Plants</span></a>
-          <a href="resources.php"><span>Resources</span></a>
-          <a href="contact.php"><span>Contact</span></a>
-          <a href="#shopping_cart"><span>Cart</span></a><!--@todo icon for shopping cart-->
-        </nav>
     </header>
   </div>
+  <!--@todo icon for shopping cart-->
+  <!--@todo image across the header and nav-->
+  <nav id="navbar">
+    <a href="index.php"><span>Home</span></a>
+    <a href="plants.php"><span>Plants</span></a>
+    <a href="resources.php"><span>Resources</span></a>
+    <a href="contact.php"><span>Contact</span></a>
+    <a href="#shopping_cart"><span>Cart</span></a>
+  </nav>
 
   <!--  end header file here -->
   <!-- START LEFT COL -->
@@ -63,7 +66,7 @@
   <!-- END Footer -->
 
 </div>
-<script src="js/script.js"></script>
+<!--<script src="js/script.js"></script>-->
 <!-- END WRAPPER -->
 
 </body>
