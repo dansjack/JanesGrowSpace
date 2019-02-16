@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="css/fp.css" />
   <link rel="stylesheet" href="css/form.css" />
   <link rel="stylesheet" href="css/grid.css" />
-  <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates|Ubuntu" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates%7CUbuntu" rel="stylesheet">
 </head>
 
 <body>
