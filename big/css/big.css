@@ -77,7 +77,7 @@ footer {
     aside {
         width:34%;
         float:right;
-        margin-right: 1em;
+        margin: 1em;
     }
 
     footer {
@@ -117,7 +117,7 @@ footer {
     aside {
         width:34%;
         float:right;
-        margin-right: 1em;
+        margin: 1em;
     }
 
     aside > h2 {
@@ -160,7 +160,7 @@ footer {
 /* PHONE */
 @media all and (max-width:736px) {
 
-    form, section, footer, div.contact-feedback {
+    form, section, aside, footer, div.contact-feedback {
         margin: 1em;
     }
 

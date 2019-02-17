@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title><?=$title?></title>
+  <title>Jane's Grow Space</title>
   <meta name="viewport" content="width=device-width" />
   <meta name="robots" content="noindex,nofollow" />
   <meta charset="utf-8">
@@ -17,7 +17,7 @@
 <div class="wrapper">
   <div class="section group">
     <header class="col span_6_of_6" id="header">
-        <h1>Jane's grow space</h1>
+        <h1>Jane's Grow Space</h1>
         <!--@todo icon for shopping cart-->
         <!--@todo image across the header and nav-->
         <nav id="navbar">
@@ -41,8 +41,7 @@
     <aside class="col span_2_of_6">
       <h3>Aside</h3>
       <p>
-        Sit in a box for hours licks your face make plans to dominate world and then take a nap. Ask to be pet then attack owners hand unwrap toilet paper or meowing non stop for food but chew on cable so pretend not to be evil. Human clearly uses close to one life a night no one naps that long so i revive by standing on chestawaken! hunt by meowing loudly at 5am next to human slave food dispenser. Furrier and even more furrier hairball pee in the shoe, or pushes butt to face but spend all night ensuring people don't sleep sleep all day who's the baby, or fish i must find my red catnip fishy fish but kitten is playing with dead mouse. Cats go for world domination catty ipsum, and ooooh feather moving feather!. Kitty power bleghbleghvomit my furball really tie the room together so fooled again thinking the dog likes me and slap owner's face at 5am until human fills food dish yet spend six hours per day washing, but still have a crusty butthole eat all the power cords. I bet my nine lives on you-oooo-ooo-hooo roll on the floor purring your whiskers off but be superior and meow meow destroy couch. Cuddle no cuddle cuddle love scratch scratch i heard this rumor where the humans are our owners, pfft, what do they know?! hunt anything that moves, yet swat turds around the house. Favor packaging over toy disappear for four days and return home with an expensive injury; bite the vet really likes hummus, where is my slave? I'm getting hungry but cereal boxes make for five star accommodation . Kitten is playing with dead mouse refuse to come home when humans are going to bed; stay out all night then yowl like i am dying at 4am. Has closed eyes but still sees you eats owners hair then claws head chew iPad power cord, and cat fur is the new black find something else more interesting. Ask to be pet then attack owners hand scratch at fleas, meow until belly rubs, hide behind curtain when vacuum cleaner is on scratch strangers and poo on owners food refuse to leave cardboard box. Swat at dog leave fur on owners clothes eat the fat cats food, mouse mewl for food at 4am so mew scream at teh bath. Be a nyan cat, feel great about it, be annoying 24/7 poop rainbows in litter box all day love blinks and purr purr purr purr yawn so pushes butt to face. Fall over dead (not really but gets sypathy) if it fits i sits and sleeps on my head eat a plant, kill a hand love meow and walk away steal the warm chair right after you get up. Loves cheeseburgers meowing chowing and wowing or if human is on laptop sit on the keyboard. Meow and walk away intently stare at the same spot, and eat prawns daintily with a claw then lick paws clean wash down prawns with a lap of carnation milk then retire to the warmest spot on the couch to claw at the fabric before taking a catnap wack the mini furry mouse try to jump onto window and fall while scratching at wall. Ooh, are those your $250 dollar sandals? lemme use that as my litter box attack the child and lick yarn hanging out of own butt. Steal the warm chair right after you get up cats secretly make all the worlds muffins, a nice warm laptop for me to sit on and sleeps on my head, i just saw other cats inside the house and nobody ask me before using my litter box.
-      </p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tristique risus nec feugiat in fermentum posuere urna nec tincidunt. Et netus et malesuada fames ac turpis. Dictum fusce ut placerat orci. Morbi quis commodo odio aenean sed adipiscing diam. Elit eget gravida cum sociis natoque. Tempor id eu nisl nunc mi ipsum faucibus vitae aliquet. Sed velit dignissim sodales ut eu sem. Nunc sed augue lacus viverra vitae congue eu. Est ante in nibh mauris. Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Eget nulla facilisi etiam dignissim diam quis enim lobortis. Consequat mauris nunc congue nisi vitae suscipit tellus. Sed blandit libero volutpat sed cras. Nulla at volutpat diam ut venenatis tellus in metus vulputate.      </p>
     </aside>
     <!-- END LEFT COL -->
 
@@ -59,7 +58,7 @@
   <!--START FOOTER HERE-->
   <footer>
     <p>
-      <small>&copy; <?php echo date("Y");?> by <a href="contact.php" target="_blank">Daniel Jack</a>, All Rights
+      <small>&copy; <?php echo date("Y");?> by <a href="contact.php" target="_blank">Janey Jack</a>, All Rights
         Reserved ~ <a href="http://validator.w3.org/check/referer" target="_blank">Valid HTML</a> ~
         <a href="http://jigsaw.w3.org/css-validator/check?uri=referer" target="_blank">Valid CSS</a>
       </small>
