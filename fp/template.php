@@ -21,7 +21,7 @@
         <!--@todo icon for shopping cart-->
         <!--@todo image across the header and nav-->
         <nav id="navbar">
-          <a href="index.php"><span>Home</span></a>
+          <a href="template.php"><span>Home</span></a>
           <a href="plants.php"><span>Plants</span></a>
           <a href="resources.php"><span>Resources</span></a>
           <a href="contact.php"><span>Contact</span></a>
