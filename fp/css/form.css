@@ -14,7 +14,7 @@ form, div.contact-feedback {
     overflow: scroll;
 }
 
-div.contact-feedback > p, h2 {
+div.contact-feedback > p, div.contact-feedback > h2 {
     margin: 1em;
 }
 

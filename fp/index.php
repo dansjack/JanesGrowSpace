@@ -34,8 +34,8 @@
 
   <!--  end header file here -->
   <!-- START LEFT COL -->
-  <div class="section group">
-    <h2 class="col span_6_of_6">Welcome to the Jungle...</h2>
+  <div class="section group page-ID-container">
+    <h2 class="col span_6_of_6 page-ID">Welcome to the Jungle...</h2>
   </div>
   <div class="section group">
     <aside class="col span_2_of_6">
