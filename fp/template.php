@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="css/form.css" />
   <link rel="stylesheet" href="css/grid.css" />
   <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates%7CUbuntu%7COswald" rel="stylesheet">
+<!--  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
 </head>
 
 <body>
@@ -20,12 +21,14 @@
         <h1>Jane's Grow Space</h1>
         <!--@todo icon for shopping cart-->
         <!--@todo image across the header and nav-->
-        <nav id="navbar">
+        <nav id="navbar" class="navbar">
           <a href="template.php"><span>Home</span></a>
           <a href="plants.php"><span>Plants</span></a>
           <a href="resources.php"><span>Resources</span></a>
           <a href="contact.php"><span>Contact</span></a>
           <a href="#shopping_cart"><span>Cart</span></a>
+<!--          <a href="javascript:void(0);" class="icon" onclick="responsiveNav()">-->
+<!--            <i class="fa fa-bars"></i></a>-->
         </nav>
         <p id="content-start"></p>
     </header>
@@ -88,16 +91,19 @@
   </div>
   <!-- END RIGHT COL -->
   <!--START FOOTER HERE-->
-  <footer>
-    <p><a href="mailto:janey.exe@gmail.com">janey.exe@gmail.com</a></p>
-    <p><a href="https://www.instagram.com/janeyenaj/?hl=en">Instagram</a></p>
-    <p>
-      <small>&copy; <?php echo date("Y");?> by <a href="contact.php" target="_blank">Janey Jack</a>, All Rights
-        Reserved ~ <a href="http://validator.w3.org/check/referer" target="_blank">Valid HTML</a> ~
-        <a href="http://jigsaw.w3.org/css-validator/check?uri=referer" target="_blank">Valid CSS</a>
-      </small>
-    </p>
-  </footer>
+  <div class="section group">
+    <footer class="col span_6_of_6">
+      <p><a href="mailto:janey.exe@gmail.com">janey.exe@gmail.com</a></p>
+      <p><a href="https://www.instagram.com/janeyenaj/?hl=en">Instagram</a></p>
+      <p>
+        <small>&copy; <?php echo date("Y");?> by <a href="contact.php" target="_blank">Janey Jack</a>, All Rights
+          Reserved ~ <a href="http://validator.w3.org/check/referer" target="_blank">Valid HTML</a> ~
+          <a href="http://jigsaw.w3.org/css-validator/check?uri=referer" target="_blank">Valid CSS</a>
+        </small>
+      </p>
+    </footer>
+  </div>
+
   <!-- END Footer -->
 
 </div>

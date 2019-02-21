@@ -1,4 +1,4 @@
-// When the user scrolls the page, execute myFunction
+// When the user scrolls the page, execute stickyNav
 window.onscroll = function() {stickyNav()};
 
 // Get the navbar
@@ -16,5 +16,14 @@ function stickyNav() {
         navbar.classList.add("sticky")
     } else {
         navbar.classList.remove("sticky");
+    }
+}
+
+function responsiveNav() {
+    var x = document.getElementById("navbar");
+    if (x.className === "navbar") {
+        x.className += " responsive";
+    } else {
+        x.className = "navbar";
     }
 }
