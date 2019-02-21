@@ -57,7 +57,7 @@ h1 {
 }
 
 h1, h2, h3, p {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
 }
 
 
@@ -88,7 +88,7 @@ footer {
 /* START RESPONSIVE STYLES */
 
 /* DESKTOP  If there is a res bigger than 1280, then do everything in wrapper*/
-@media all and (min-width:1280px) {
+@media all and (min-width:769px) {
 
 
     img.desktop {
@@ -98,6 +98,22 @@ footer {
 
     img.tablet, img.phone {
         display:none;
+    }
+
+    main img {
+        max-width: 47%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .main-img-1 {
+        float: left;
+        margin-left: 10px;
+    }
+
+    .main-img-2 {
+        float: right;
+        margin-right: 10px;
     }
 
 }
