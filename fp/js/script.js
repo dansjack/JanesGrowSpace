@@ -3,6 +3,7 @@ window.onscroll = function() {stickyNav()};
 
 // Get the navbar
 var navbar = document.getElementById("navbar");
+var mobile = window.matchMedia("(min-width: 769px)");
 // var headerContainer = document.getElementById("hdr-bg-img");
 // var header = document.getElementById("header");
 
@@ -14,7 +15,7 @@ var sticky = navbar.offsetTop;
 
 // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
 function stickyNav() {
-    if (window.pageYOffset >= sticky) {
+    if (window.pageYOffset >= sticky && mobile.matches) {
         navbar.classList.add("sticky");
         navbar.classList.remove("un-sticky");
         // headerContainer.classList.remove("hdr-bg-img");
