@@ -5,7 +5,7 @@
 
 nav {
   overflow: hidden;
-  background-color: #F9E7E7;
+  /*background-color: #F9E7E7;*/
 }
 
 nav a {
@@ -40,6 +40,12 @@ nav a:active {
 /*************************
    RESPONSIVE NAV STYLES
  ************************/
+
+/*.navbar-scroll-color.scrolled {*/
+  /*background-color: black;*/
+  /*transition: background-color 200ms linear;*/
+/*}*/
+
 @media all and (min-width:769px) {
 
   .sticky {

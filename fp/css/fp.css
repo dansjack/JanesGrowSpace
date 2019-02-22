@@ -55,7 +55,15 @@ html {
 
 #header {
     margin-bottom: 0;
+    background-color: transparent; /* Makes background image visible */
 }
+
+.hdr-bg-img {
+    background-image: url("../images/stock/plants-stock-10.jpg") !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 h1 {
     text-align: center;
 }
@@ -70,7 +78,7 @@ h1, h2, h3, p {
 }
 
 .page-ID {
-    padding: 10px;
+    padding: 15px;
 }
 
 main, aside {

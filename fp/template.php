@@ -10,25 +10,21 @@
   <link rel="stylesheet" href="css/form.css" />
   <link rel="stylesheet" href="css/grid.css" />
   <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates%7CUbuntu%7COswald" rel="stylesheet">
-<!--  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
 </head>
 
 <body>
 <!-- START WRAPPER -->
 <div class="wrapper">
-  <div class="section group">
-    <header class="col span_6_of_6 header" id="header">
+  <div class="section group hdr-bg-img" id="hdr-bg-img">
+    <header class="col span_6_of_6 header header-bg-img" id="header">
         <h1>Jane's Grow Space</h1>
         <!--@todo icon for shopping cart-->
-        <!--@todo image across the header and nav-->
-        <nav id="navbar" class="navbar">
+        <nav id="navbar" class="navbar"> <!-- + class="sticky" onScroll-->
           <a href="template.php"><span>Home</span></a>
           <a href="plants.php"><span>Plants</span></a>
           <a href="resources.php"><span>Resources</span></a>
           <a href="contact.php"><span>Contact</span></a>
           <a href="#shopping_cart"><span>Cart</span></a>
-<!--          <a href="javascript:void(0);" class="icon" onclick="responsiveNav()">-->
-<!--            <i class="fa fa-bars"></i></a>-->
         </nav>
         <p id="content-start"></p>
     </header>
@@ -52,7 +48,10 @@
         louder at reflection. Yowling nonstop the whole night pushes butt to face kitty power. Sleep nap crash
         against wall but walk away like nothing happened and paw your face to wake you up in the morning, meow in
         empty rooms yet bird bird bird bird bird bird human why take bird out i could have eaten that but bite the
-        neighbor's bratty kid. Find something else more interesting, for hiding behind the couch until lured out by
+        neighbor's bratty kid.
+      </p>
+      <p>
+        Find something else more interesting, for hiding behind the couch until lured out by
         a feathery toy that box? i can fit in that box groom forever, stretch tongue and leave it slightly out, blep
         or intently sniff hand spill litter box, scratch at owner, destroy all furniture, especially couch. Sleeps
         on my head ooooh feather moving feather!, and chase red laser dot if human is on laptop sit on the keyboard.
