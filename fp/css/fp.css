@@ -111,6 +111,17 @@ footer {
     margin-right: 30px;
 }
 
+.footer-icons {
+    text-decoration: none;
+}
+
+footer > p > a:first-of-type {
+    padding-right: 10px;
+}
+
+footer > p > a:last-of-type {
+    padding-left: 10px;
+}
 
 /* START RESPONSIVE STYLES */
 
@@ -128,7 +139,7 @@ footer {
     }
 
     main img {
-        max-width: 46.5%;
+        max-width: 43.75%;
         height: auto;
         margin-bottom: 10px;
     }
@@ -157,7 +168,7 @@ footer {
     }
 
     main img {
-        max-width: 45%;
+        max-width: 43%;
         height: auto;
         margin-bottom: 10px;
     }

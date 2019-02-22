@@ -26,7 +26,7 @@ function stickyNav() {
     }
 }
 
-function myFunction() {
+function responsiveNav() {
     var x = document.getElementById("navbar");
     if (x.className === "navbar navbar-scroll-color") {
         x.className += " responsive";

@@ -10,7 +10,6 @@
   <link rel="stylesheet" href="css/form.css" />
   <link rel="stylesheet" href="css/grid.css" />
   <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates%7CUbuntu%7COswald" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -26,7 +25,7 @@
           <a href="resources.php"><span>Resources</span></a>
           <a href="contact.php"><span>Contact</span></a>
           <a href="#shopping_cart"><span>Cart</span></a>
-          <a href="#" class="icon" onclick="myFunction()">☰</a>
+          <a href="#" class="icon" onclick="responsiveNav()">☰</a>
         </nav>
         <p id="content-start"></p>
     </header>
@@ -93,8 +92,16 @@
   <!--START FOOTER HERE-->
   <div class="section group">
     <footer class="col span_6_of_6 footer">
-      <p><a href="mailto:janey.exe@gmail.com">janey.exe@gmail.com</a></p>
-      <p><a href="https://www.instagram.com/janeyenaj/?hl=en">Instagram</a></p>
+      <p>
+        <a href="https://www.instagram.com/janeyenaj/?hl=en" class="footer-icons"><img src="images/icons/ig.svg"
+                                                                                        alt="Instagram icon"></a>
+        <a href="mailto:janey.exe@gmail.com" class="footer-icons"><img src="images/icons/envelope.svg" alt="Email
+        icon"></a>
+      </p>
+      <!--Icons made by Bogdan Rosu from "https://www.flaticon.com/authors/bogdan-rosu" licensed by Creative Commons
+        BY 3.0 ("http://creativecommons.org/licenses/by/3.0/")
+        Icons made by Dave Gandy from "https://www.flaticon.com/authors/dave-gandy" licensed by Creative Commons BY 3.0
+        ("http://creativecommons.org/licenses/by/3.0/")-->
       <p>
         <small>&copy; <?php echo date("Y");?> by <a href="contact.php" target="_blank">Janey Jack</a>, All Rights
           Reserved ~ <a href="http://validator.w3.org/check/referer" target="_blank">Valid HTML</a> ~
@@ -111,4 +118,10 @@
 <!-- END WRAPPER -->
 
 </body>
-</html>
+</html>
+
+
+
+
+
+

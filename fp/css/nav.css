@@ -18,6 +18,7 @@ nav a {
   font-family: 'Oswald', sans-serif;
   font-weight: 700;
   padding: 20px 0;
+  font-size: 20px;
 }
 
 nav a:hover {
@@ -98,8 +99,8 @@ nav a:active {
   .navbar.responsive {position: relative;}
   .navbar.responsive a.icon {
     position: absolute;
-    right: 0;
-    top: 0;
+    right: -88px;
+    top: 10px;
   }
   .navbar.responsive a {
     float: none;
