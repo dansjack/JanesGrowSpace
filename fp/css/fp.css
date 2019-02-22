@@ -128,58 +128,6 @@ footer {
 }
 
 
-
-
-/* TABLET */
-/*@media all and (min-width:737px) and (max-width:1399px) {
-
-    section {
-        width:55%;
-        float:left;
-    }
-
-
-    section > h2 {
-        margin-left: 0;
-    }
-
-    aside {
-        width:34%;
-        float:right;
-        margin-right: 1em;
-    }
-
-    aside > h2 {
-        margin-left: 16px;
-    }
-
-    form, section, footer, div.contact-feedback {
-        margin: 1em;
-    }
-
-    img.tablet {
-        width:100%;
-    }
-
-    img.phone, img.desktop {
-        display:none;
-    }*/ /*
-
-    input:required {
-        max-width: 90%;
-    }
-
-    input:optional, textarea:optional {
-        max-width: 90%;
-    }
-
-    .g-recaptcha {
-        transform: scale(0.77);
-        transform-origin:0 0;
-    }
-}*/
-
-
 /* PHONE */
 
 

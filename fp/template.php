@@ -41,7 +41,7 @@
   </div>
   <div class="section group main-aside">
     <!-- START LEFT COL -->
-    <main class="col span_4_of_6" id="main">
+    <main class="col span_4_of_6">
       <h2>Main</h2>
       <p>Stare at ceiling attack the child or murr i hate humans they are so annoying eat the rubberband.
         Asdflkjaertvlkjasntvkjn (sits on keyboard) soft kitty warm kitty little ball of furr, step on your keyboard
@@ -69,7 +69,7 @@
     </main>
     <!-- END LEFT COL -->
     <!-- START RIGHT COL -->
-    <aside class="col span_2_of_6" id="aside">
+    <aside class="col span_2_of_6">
       <h3>Aside</h3>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
