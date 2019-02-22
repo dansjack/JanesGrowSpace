@@ -41,10 +41,10 @@ nav a:active {
    RESPONSIVE NAV STYLES
  ************************/
 
-/*.navbar-scroll-color.scrolled {*/
-  /*background-color: black;*/
-  /*transition: background-color 200ms linear;*/
-/*}*/
+.navbar-scroll-color.scrolled {
+  background-color: black;
+  transition: background-color 200ms linear;
+}
 
 @media all and (min-width:769px) {
 
@@ -52,6 +52,12 @@ nav a:active {
     position: fixed;
     top: 0;
     width: calc(100% - 16px);
+    background-color: #F9E7E7 !important;
+    transition: background-color .4s ease-out;
+  }
+
+  .un-sticky {
+    transition: background-color .4s ease-out;
   }
 
 }
@@ -62,6 +68,12 @@ nav a:active {
     position: fixed;
     top: 0;
     width: calc(100%);
+    background-color: #F9E7E7 !important;
+    transition: background-color .4s ease-out;
+  }
+
+  .un-sticky {
+    transition: background-color .4s ease-out;
   }
 
 }

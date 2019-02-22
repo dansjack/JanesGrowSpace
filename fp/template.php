@@ -19,7 +19,7 @@
     <header class="col span_6_of_6 header header-bg-img" id="header">
         <h1>Jane's Grow Space</h1>
         <!--@todo icon for shopping cart-->
-        <nav id="navbar" class="navbar"> <!-- + class="sticky" onScroll-->
+        <nav id="navbar" class="navbar navbar-scroll-color"> <!-- + class="sticky" onScroll-->
           <a href="template.php"><span>Home</span></a>
           <a href="plants.php"><span>Plants</span></a>
           <a href="resources.php"><span>Resources</span></a>
