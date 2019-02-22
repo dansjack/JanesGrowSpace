@@ -38,7 +38,7 @@ nav a:active {
 }
 
 /*************************
-   RESPONSIVE NAV STYLES
+   SCROLLING NAV STYLES
  ************************/
 
 .navbar-scroll-color.scrolled {
@@ -60,6 +60,10 @@ nav a:active {
     transition: background-color .4s ease-out;
   }
 
+  .navbar .icon {
+    display: none;
+  }
+
 }
 
 @media all and (max-width:768px) {
@@ -75,5 +79,34 @@ nav a:active {
   .un-sticky {
     transition: background-color .4s ease-in;
   }
+
+}
+
+/*************************
+   RESPONSIVE NAV STYLES
+ ************************/
+
+@media all and (max-width:768px) {
+
+  .navbar a:not(:first-child) {display: none;}
+
+  .navbar a.icon {
+    float: right;
+    display: block;
+  }
+
+  .navbar.responsive {position: relative;}
+  .navbar.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .navbar.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+    padding: 10px 30px !important;
+  }
+
 
 }

@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="css/form.css" />
   <link rel="stylesheet" href="css/grid.css" />
   <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates%7CUbuntu%7COswald" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -25,6 +26,7 @@
           <a href="resources.php"><span>Resources</span></a>
           <a href="contact.php"><span>Contact</span></a>
           <a href="#shopping_cart"><span>Cart</span></a>
+          <a href="#" class="icon" onclick="myFunction()">☰</a>
         </nav>
         <p id="content-start"></p>
     </header>
