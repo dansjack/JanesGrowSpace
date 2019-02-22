@@ -15,6 +15,8 @@
     margin: 1% 0 1% 1.6%;
     background: #F9E7E7;
 }
+
+
 .col:first-child { margin-left: 0; }
 /*.col:last-child { margin-right: 1%; }
 
@@ -56,3 +58,64 @@
 .span_1_of_6 {
     width: 15.33%;
 }
+
+
+/* DESKTOP */
+@media all and (min-width:769px) {
+    .main-aside {
+        display: flex !important;
+    }
+
+    main, aside {
+        margin: 1% 0 1% 1.6% !important;
+    }
+
+    aside {
+        margin-left: 0 !important;
+    }
+
+    .main-aside :nth-child(1) { order: 2; }
+    .main-aside :nth-child(2) { order: 1; }
+
+}
+
+
+/* PHONE */
+@media all and (max-width:768px) {
+    .span_5_of_6 {
+        width: 100%;
+    }
+
+    .span_4_of_6 {
+        width: 100%;
+    }
+
+    .span_3_of_6 {
+        width: 100%;
+    }
+
+    .span_2_of_6 {
+        width: 100%;
+    }
+
+    .span_1_of_6 {
+        width: 100%;
+    }
+
+
+    .col {
+        margin: 1% auto;
+
+    }
+
+    .header {
+        margin-top: 0;
+    }
+
+    .footer {
+        margin-bottom: 0;
+    }
+
+
+}
+

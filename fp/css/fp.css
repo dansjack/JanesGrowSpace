@@ -78,11 +78,11 @@ main, aside {
 }
 aside p, main p {
     line-height: 1.4em;
-    padding: 10px;
+    padding: 15px;
 }
 
 aside h3, main h2 {
-    padding: 10px;
+    padding: 15px;
 }
 
 footer {
@@ -91,6 +91,19 @@ footer {
     text-align: center;
 }
 
+
+
+.main-img-1 {
+    float: left;
+    margin-left: 15px;
+}
+
+.main-img-2 {
+    float: right;
+    margin-right: 15px;
+}
+
+
 /* START RESPONSIVE STYLES */
 
 /* DESKTOP  If there is a res bigger than 1280, then do everything in wrapper*/
@@ -98,31 +111,23 @@ footer {
 
 
     img.desktop {
-        float:left;
-        width:50%;
+        float: left;
+        width: 50%;
     }
 
     img.tablet, img.phone {
-        display:none;
+        display: none;
     }
 
     main img {
-        max-width: 47%;
+        max-width: 46.5%;
         height: auto;
         margin-bottom: 10px;
     }
 
-    .main-img-1 {
-        float: left;
-        margin-left: 10px;
-    }
-
-    .main-img-2 {
-        float: right;
-        margin-right: 10px;
-    }
-
 }
+
+
 
 
 /* TABLET */
@@ -176,17 +181,29 @@ footer {
 
 
 /* PHONE */
+
+
 @media all and (max-width:768px) {
 
-
+    body {
+        width: 100%;
+        margin: 0 auto;
+    }
 
     input:required, input:optional, textarea:optional, div.contact-feedback {
         max-width: 90%;
     }
 
+
     .g-recaptcha {
         transform: scale(0.82);
         transform-origin:0 0;
+    }
+
+    main img {
+        max-width: 45%;
+        height: auto;
+        margin-bottom: 10px;
     }
 
 }

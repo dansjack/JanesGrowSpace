@@ -31,11 +31,7 @@ nav a:active {
     STICKY NAV STYLES
  ************************/
 
-.sticky {
-  position: fixed;
-  top: 0;
-  width: calc(100% - 16px);
-}
+
 
 .sticky + #content-start {
   padding-top: 60px;
@@ -44,10 +40,29 @@ nav a:active {
 /*************************
    RESPONSIVE NAV STYLES
  ************************/
+@media all and (min-width:769px) {
 
-.navbar .icon {
-  display: none;
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: calc(100% - 16px);
+  }
+
 }
+
+@media all and (max-width:768px) {
+
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: calc(100%);
+  }
+
+}
+
+/*.navbar .icon {*/
+  /*display: none;*/
+/*}*/
 
 /*@media screen and (max-width: 768px) {*/
   /*.navbar a:not(:first-child) {display: none;}*/
@@ -70,3 +85,4 @@ nav a:active {
     /*text-align: left;*/
   /*}*/
 /*}*/
+

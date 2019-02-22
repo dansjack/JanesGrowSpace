@@ -17,7 +17,7 @@
 <!-- START WRAPPER -->
 <div class="wrapper">
   <div class="section group">
-    <header class="col span_6_of_6" id="header">
+    <header class="col span_6_of_6 header" id="header">
         <h1>Jane's Grow Space</h1>
         <!--@todo icon for shopping cart-->
         <!--@todo image across the header and nav-->
@@ -36,33 +36,12 @@
   </div>
 
   <!--  end header file here -->
-  <!-- START LEFT COL -->
   <div class="section group page-ID-container">
-    <h2 class="col span_6_of_6 page-ID">Welcome to the Jungle...</h2>
+    <h2 class="col span_6_of_6 page-ID">Page ID</h2>
   </div>
-  <div class="section group">
-    <aside class="col span_2_of_6">
-      <h3>Aside</h3>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-        dolore magna aliqua. Tristique risus nec feugiat in fermentum posuere urna nec tincidunt. Et netus et
-        malesuada fames ac turpis. Dictum fusce ut placerat orci. Morbi quis commodo odio aenean sed adipiscing diam
-        . Elit eget gravida cum sociis natoque. Tempor id eu nisl nunc mi ipsum faucibus vitae aliquet. Sed velit
-        dignissim sodales ut eu sem. Nunc sed augue lacus viverra vitae congue eu. Est ante in nibh mauris. Eleifend
-        mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Eget nulla facilisi etiam dignissim diam
-        quis enim lobortis. Consequat mauris nunc congue nisi vitae suscipit tellus. Sed blandit libero volutpat sed
-        cras. Nulla at volutpat diam ut venenatis tellus in metus vulputate. Cats woo i cry and cry and cry unless
-        you pet me, and then maybe i cry just for fun but mice, or lies down tuxedo cats always looking dapper but
-        milk the cow. Hopped up on catnip swat turds around the house yet refuse to leave cardboard box yet spit up
-        on light gray carpet instead of adjacent linoleum for cat dog hate mouse eat string barf pillow no baths
-        hate everything. Lick master's hand at first then bite because im moody check cat door for ambush 10 times
-        before coming in.
-        </p>
-    </aside>
-    <!-- END LEFT COL -->
-
-    <!-- START RIGHT COL -->
-    <main class="col span_4_of_6">
+  <div class="section group main-aside">
+    <!-- START LEFT COL -->
+    <main class="col span_4_of_6" id="main">
       <h2>Main</h2>
       <p>Stare at ceiling attack the child or murr i hate humans they are so annoying eat the rubberband.
         Asdflkjaertvlkjasntvkjn (sits on keyboard) soft kitty warm kitty little ball of furr, step on your keyboard
@@ -88,11 +67,31 @@
       <img class="main-img-1" src="images/stock/plants-stock-1.jpg" alt="plant-stock-1">
       <img class="main-img-2" src="images/stock/plants-stock-2.jpg" alt="plant-stock-2">
     </main>
+    <!-- END LEFT COL -->
+    <!-- START RIGHT COL -->
+    <aside class="col span_2_of_6" id="aside">
+      <h3>Aside</h3>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+        dolore magna aliqua. Tristique risus nec feugiat in fermentum posuere urna nec tincidunt. Et netus et
+        malesuada fames ac turpis. Dictum fusce ut placerat orci. Morbi quis commodo odio aenean sed adipiscing diam
+        . Elit eget gravida cum sociis natoque. Tempor id eu nisl nunc mi ipsum faucibus vitae aliquet. Sed velit
+        dignissim sodales ut eu sem. Nunc sed augue lacus viverra vitae congue eu. Est ante in nibh mauris. Eleifend
+        mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Eget nulla facilisi etiam dignissim diam
+        quis enim lobortis. Consequat mauris nunc congue nisi vitae suscipit tellus. Sed blandit libero volutpat sed
+        cras. Nulla at volutpat diam ut venenatis tellus in metus vulputate. Cats woo i cry and cry and cry unless
+        you pet me, and then maybe i cry just for fun but mice, or lies down tuxedo cats always looking dapper but
+        milk the cow. Hopped up on catnip swat turds around the house yet refuse to leave cardboard box yet spit up
+        on light gray carpet instead of adjacent linoleum for cat dog hate mouse eat string barf pillow no baths
+        hate everything. Lick master's hand at first then bite because im moody check cat door for ambush 10 times
+        before coming in.
+      </p>
+    </aside>
   </div>
   <!-- END RIGHT COL -->
   <!--START FOOTER HERE-->
   <div class="section group">
-    <footer class="col span_6_of_6">
+    <footer class="col span_6_of_6 footer">
       <p><a href="mailto:janey.exe@gmail.com">janey.exe@gmail.com</a></p>
       <p><a href="https://www.instagram.com/janeyenaj/?hl=en">Instagram</a></p>
       <p>
