@@ -14,7 +14,7 @@ nav a {
   text-decoration: none;
   width: 20%;
   text-align: center;
-  color: #2274A5;
+  color: #F9E7E7;
   font-family: 'Oswald', sans-serif;
   font-weight: 700;
   font-size: 20px;
@@ -25,6 +25,13 @@ nav a:hover {
 }
 nav a:active {
   text-shadow: 2px 2px 5px #ffffff;
+}
+
+#banner-heading {
+  padding-bottom: 140px;
+  margin-bottom: 0;
+  font-size: 5em;
+  color: #F9E7E7;
 }
 
 /*************************
@@ -49,7 +56,9 @@ nav a:active {
 @media all and (min-width:769px) {
 
   nav {
-    margin-top: 260px;
+    margin-top: 16px;
+    padding-top: 10px;
+    padding-bottom: 14px;
   }
 
   .sticky {
@@ -57,7 +66,7 @@ nav a:active {
     top: 0;
     margin-top: 0;
     width: calc(100% - 16px);
-    background-color: #F9E7E7 !important;
+    background-color: #2274A5 !important;
     transition: background-color .4s ease-out;
   }
 
@@ -78,7 +87,7 @@ nav a:active {
     top: 0;
     margin-top: 0;
     width: calc(100%);
-    background-color: #F9E7E7 !important;
+    background-color: #2274A5 !important;
     transition: background-color .4s ease-out;
   }
 
