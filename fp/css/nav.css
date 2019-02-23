@@ -34,6 +34,10 @@ nav a:active {
   color: #F9E7E7;
 }
 
+#cart-icon {
+  height: 30px;
+}
+
 /*************************
     STICKY NAV STYLES
  ************************/
