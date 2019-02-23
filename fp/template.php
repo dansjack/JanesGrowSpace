@@ -26,6 +26,8 @@
           <a href="contact.php"><span>Contact</span></a>
           <a href="#shopping_cart"><span><img id="cart-icon" src="images/icons/shopping-cart.svg" alt="Shopping Cart
           icon"></span></a>
+          <!--Icons made by Stephen Hutchings from "https://www.flaticon.com/authors/stephen-hutchings" is licensed
+           by Creative Commons BY 3.0"-->
           <a href="#" class="icon" onclick="responsiveNav()">☰</a>
         </nav>
         <p id="content-start"></p>
@@ -126,4 +128,3 @@
 
 
 
-<!--<div>Icons made by <a href="https://www.flaticon.com/authors/stephen-hutchings" title="Stephen Hutchings">Stephen Hutchings</a> from <a href="https://www.flaticon.com/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>-->
