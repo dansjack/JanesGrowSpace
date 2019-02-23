@@ -58,6 +58,10 @@ html {
     background-color: transparent; /* Makes background image visible */
 }
 
+
+
+
+
 .hdr-bg-img {
     background-image: url("../images/stock/plants-stock-8.jpg") !important;
     background-size: cover;
@@ -142,6 +146,10 @@ footer > p > a:last-of-type {
         max-width: 43.75%;
         height: auto;
         margin-bottom: 10px;
+    }
+
+    .header {
+        height: 360px;
     }
 
 }

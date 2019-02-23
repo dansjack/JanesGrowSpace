@@ -5,6 +5,7 @@
 
 nav {
   overflow: hidden;
+  margin-top: 250px;
   /*background-color: #F9E7E7;*/
 }
 
@@ -51,6 +52,7 @@ nav a:active {
   .sticky {
     position: fixed;
     top: 0;
+    margin-top: 0;
     width: calc(100% - 16px);
     background-color: #F9E7E7 !important;
     transition: background-color .4s ease-out;
@@ -71,6 +73,7 @@ nav a:active {
   .sticky {
     position: fixed;
     top: 0;
+    margin-top: 0;
     width: calc(100%);
     background-color: #F9E7E7 !important;
     transition: background-color .4s ease-out;
