@@ -30,7 +30,7 @@ function stickyNav() {
 
 function responsiveNav() {
     var x = document.getElementById("navbar");
-    if (x.className === "navbar navbar-scroll-color") {
+    if (x.className === "navbar navbar-scroll-color" || x.className === "navbar navbar-scroll-color un-sticky") {
         x.className += " responsive";
     } else {
         x.className = "navbar navbar-scroll-color";
