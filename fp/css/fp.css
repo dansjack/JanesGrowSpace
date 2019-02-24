@@ -46,6 +46,10 @@ h1, h2, h3, p {
     font-family: 'Montserrat Alternates', sans-serif;
 }
 
+h1, h2, h3 {
+    color: #F9E7E7;
+}
+
 
 .page-ID-container {
     overflow: hidden; /* Keeps page ID container on the page*/
