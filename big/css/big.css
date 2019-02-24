@@ -31,6 +31,8 @@ div.embed-container {
     max-width: 100%;
 }
 
+
+
 div.embed-container iframe {
     position: absolute;
     top: 0;
@@ -44,6 +46,11 @@ div.embed-container iframe {
 }
 
 /* End Embed Responsively Rules! */
+
+/*HIDE AGENDA VIEW CALENDAR*/
+div.embed-container.agenda-view {
+    display: none;
+}
 
 footer {
     clear:both;
@@ -162,6 +169,18 @@ footer {
     }
 }
 
+/*CALENDAR RULES FOR PHONE*/
+@media all and (max-width: 1024px) {
+    /* Show Agenda View Calendar */
+    div.embed-container.agenda-view {
+        display: block;
+    }
+
+    /* Hide Month View Calenar */
+    div.embed-container.month-view {
+        display: none;
+    }
+}
 
 /* PHONE */
 @media all and (max-width:736px) {
