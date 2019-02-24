@@ -25,8 +25,13 @@ define('THIS_PAGE',basename($_SERVER['PHP_SELF']));
 date_default_timezone_set('America/Los_Angeles');
 
 
-//default in case pages don't have titles
+//default for all pages
 $title = THIS_PAGE;
+
+// no index while building a client site in our space
+$robots = "noindex,nofollow";
+$meta_description = "Web developer seeking employment in Seattle. Focus on JavaScript, CSS, & HTML.";
+$meta_keywords = "dan jack, daniel jack, web developer, web developer seattle, web design, web design seattle, web dev, web developer solutions, website redesign services, web design solutions, freelance web designer seattle, freelance web developer seattle, hire web designer";
 
 switch(THIS_PAGE){
 
@@ -38,6 +43,8 @@ switch(THIS_PAGE){
     case 'contactme.php':
         $title = 'Dan\'s Contact Page!';
         $logo = "fas fa-envelope";
+        $robots = "noindex,follow";
+        $meta_description = "Please contact Dan, I'm a " . $meta_description;
         break;
 
     case 'big/index.php':
