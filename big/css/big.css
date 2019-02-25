@@ -9,6 +9,14 @@ div.wrapper {
     overflow:auto;
 }
 
+h1, h2, h3, p, td, tr, th {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+input:required, input:optional, textarea:optional, label {
+    font-family: 'Special Elite', sans-serif;
+}
+
 h1>a {
     text-decoration: none;
     color:#000;

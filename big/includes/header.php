@@ -15,18 +15,7 @@
     <link rel="stylesheet" href="css/big.css" />
     <link rel="stylesheet" href="css/form.css" />
 
-    <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Special+Elite'>
-    <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Ubuntu'>
-    <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Libre+Baskerville'>
-    <style>
-        h1, h2, h3, p, td, tr, th {
-            font-family: 'Ubuntu', sans-serif;
-        }
-
-        input:required, input:optional, textarea:optional, label {
-            font-family: 'Special Elite', sans-serif;
-        }
-    </style>
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville%7CSpecial+Elite%7CUbuntu" rel="stylesheet">
 </head>
 
 <body>
