@@ -15,15 +15,18 @@
         <h3>Client Resources</h3>
         <ul>
             <li>
-                <p><a href="https://coolors.co/" target="_blank">coolers.co</a> - Create, save, and share perfect color palettes in seconds!</p>
+                <p><a href="https://www.dreamhost.com/blog/make-your-website-accessible/" target="_blank">dreamhost
+                    .com blog: </a> - 10 Ways to Make Your Website Accessible</p>
             </li>
             <li>
-                <p><a href="https://randoma11y.com/" target="_blank">randoma11y.com</a> - Find high-contrast color palettes
-                    to make your site more inviting to the visually impaired.</p>
+                <p><a href="https://webaccess.berkeley.edu/resources/tips/web-accessibility" target="_blank">UC
+                    Berkeley</a> - Top 10 Tips for Making Your Website Accessible</p>
             </li>
             <li>
-                <p><a href="https://www.typography.com/techniques/" target="_blank">Fonts by Hoefler&Co: Technqiues</a> - A
-                    guide for choosing coherent font combinations.</p>
+              <p><a href="https://achecker.ca/checker/index.php" target="_blank">AChecker.com</a> - This tool
+                checks single HTML pages for conformance with accessibility standards to ensure the content can
+                be accessed by everyone. See the Handbook link to the upper right for more about the Web
+                Accessibility Checker.</p>
             </li>
         </ul>
     </aside>
