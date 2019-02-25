@@ -31,7 +31,7 @@ $title = THIS_PAGE;
 // no index while building a client site in our space
 $robots = "noindex,nofollow";
 $meta_description = "Web developer seeking employment in Seattle. Focus on JavaScript, CSS, & HTML.";
-$meta_keywords = "dan jack, daniel jack, web developer, web developer seattle, web design, web design seattle, web dev, web developer solutions, website redesign services, web design solutions, freelance web designer seattle, freelance web developer seattle, hire web designer";
+$meta_keywords = "web developer, web developer seattle, web design, web design seattle, web dev, web developer solutions, website redesign services, web design solutions, freelance web designer seattle, freelance web developer seattle, hire web designer";
 
 switch(THIS_PAGE){
 
@@ -45,6 +45,7 @@ switch(THIS_PAGE){
         $logo = "fas fa-envelope";
         $robots = "noindex,follow";
         $meta_description = "Please contact Dan, I'm a " . $meta_description;
+        $meta_keywords = "daniel jack, dan jack, email daniel jack, contact daniel jack, email dan jack, contact dan jack, " . $meta_keywords;
         break;
 
     case 'big/index.php':
