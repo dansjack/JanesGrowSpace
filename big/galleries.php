@@ -50,7 +50,7 @@
           <a href="http://cssslider.com/demos.html">one of the cssSlider templates</a> is probably right for the job. If
           your gallery is for a slideshow roundup or for product/business related photographs that don’t need much
           context, you can probably find what you need on the
-          <a href="https://www.jssor .com/demos/image-slider.slider">Jssor Slider website</a>.
+          <a href="https://www.jssor.com/demos/image-slider.slider">Jssor Slider website</a>.
         </p>
     </section>
     <!-- END LEFT COL -->

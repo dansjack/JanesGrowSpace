@@ -5,7 +5,7 @@
     <section>
         <h2 class="pageID">YouTube</h2>
         <div class="embed-container">
-            <iframe src='https://www.youtube.com/embed/x18vEEfpK3g' frameborder='0' allowfullscreen></iframe>
+            <iframe src='https://www.youtube.com/embed/x18vEEfpK3g' allowfullscreen></iframe>
         </div>
     </section>
     <!-- END LEFT COL -->
