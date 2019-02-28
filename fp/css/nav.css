@@ -21,10 +21,10 @@ nav a {
 }
 
 nav a:hover {
-  text-shadow: 2px 2px 5px #ffffff;
+  text-shadow: 2px 2px 5px #E83F6F;
 }
 nav a:active {
-  text-shadow: 2px 2px 5px #ffffff;
+  text-shadow: 2px 2px 5px #E83F6F;
 }
 
 #banner-heading {
