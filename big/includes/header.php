@@ -40,7 +40,6 @@
                 <!--        End drop down -->
                 <li><a href="shoppingcarts.php"><span>Shopping Carts</span></a></li>
                 <li><a href="siteapp.php"><span>Site vs App</span></a></li>
-                <li><a href="webcam.php"><span>Web Cam</span></a></li>
             </ul>
         </nav>
     </header>
