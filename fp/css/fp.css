@@ -56,7 +56,11 @@ h1, h2, h3 {
 }
 
 .page-ID {
-    padding: 10px 30px;
+    padding: 0;
+    margin-bottom: 0!important;
+    margin-left: 30px!important;
+    background: #F9E7E7!important;
+    color: #2274A5;
 }
 
 main, aside {
@@ -138,11 +142,6 @@ footer > p > a:last-of-type {
         width: 100%;
         margin: 0 auto;
     }
-
-    input:required, input:optional, textarea:optional, div.contact-feedback {
-        max-width: 90%;
-    }
-
 
     .g-recaptcha {
         transform: scale(0.82);

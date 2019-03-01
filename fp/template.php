@@ -37,7 +37,7 @@
 
   <!--  end header file here -->
   <div class="section group page-ID-container">
-    <h2 class="col span_6_of_6 page-ID">Page ID</h2>
+    <p class="col span_6_of_6 page-ID">Page ID</p>
   </div>
   <div class="section group main-aside">
     <!-- START LEFT COL -->

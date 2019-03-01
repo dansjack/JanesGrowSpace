@@ -59,18 +59,19 @@ if ($response != null && $response->success)
 	<form action="<?php echo basename($_SERVER['PHP_SELF']); ?>" method="post">
 	<div>
 		<label>
-			Name:<br /><input type="text" name="Name" required="required" placeholder="Full Name (required)" title="Name is required" tabindex="10" size="44" autofocus />
+			Name:<br /><input type="text" name="Name" required="required" placeholder="Full Name (required)" title="Name is
+			 required" tabindex="10" size="44" autofocus />
 		</label>
 	</div>
 	<div>	
 		<label>
-			Email:<br /><input type="email" name="Email" required="required" placeholder="Email (required)" title="A valid email is required" tabindex="20" size="44" />
+      <br  />Email:<br /><input type="email" name="Email" required="required" placeholder="Email (required)" title="A valid email is required" tabindex="20" size="44" />
 		</label>
 	</div>
 	<!-- below change the HTML to your form elements - only 'Name' & 'Email' (above) are significant -->
 	<div>	
 		<label>
-			How Did You Hear About Me?:<br />
+      <br  />How Did You Hear About Me?:<br />
 			<select name="How_Did_You_Hear_About_Us?" required="required" title="How You Heard is required" tabindex="30">
 				<option value="">Choose How You Heard</option>
 				<option value="Phone">Phone</option>
@@ -82,7 +83,8 @@ if ($response != null && $response->success)
 		</label>
 	</div>
 	
-	<div>	
+	<div>
+    <br  />
 		<fieldset>
 			<legend>What Services Are You Interested In?</legend>
 			<input type="checkbox" name="Interested_In[]" value="New Website" tabindex="40" /> New Website <br />
@@ -92,7 +94,8 @@ if ($response != null && $response->success)
 		</fieldset>
 	</div>
 	
-		<div>	
+		<div>
+    <br  />
 		<fieldset>
 			<legend>Would you like to join my mailing list?</legend>
 			<input type="radio" name="Join_Mailing_List?" value="Yes" 
@@ -103,19 +106,22 @@ if ($response != null && $response->success)
 	</div>
 	<div>	
 		<label>
-			Comments:<br /><textarea name="Comments" cols="36" rows="4" placeholder="Your comments are important!" tabindex="60"></textarea>
+      <br  />Comments:<br /><textarea name="Comments" placeholder="Your comments are important!" tabindex="60"></textarea>
 		</label>
 	</div>	
 	<div><?=$feedback;?></div>
+    <br  />
     <div class="g-recaptcha" data-sitekey="<?=$siteKey;?>"></div>
+    <br  />
 	<div>
 		<input type="submit" value="submit" />
 	</div>
     </form>
 	<!-- END HTML FORM -->
-    <script type="text/javascript"
-        src="https://www.google.com/recaptcha/api.js?hl=en">
+    <script src="https://www.google.com/recaptcha/api.js?hl=en">
     </script>
 <?php
 }
 ?>
+
+<!--textarea attributes cols="36" rows="4"-->
