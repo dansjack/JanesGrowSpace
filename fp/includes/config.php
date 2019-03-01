@@ -27,17 +27,21 @@ date_default_timezone_set('America/Los_Angeles');
 
 //default in case pages don't have titles
 $title = THIS_PAGE;
+$meta_description = "";
+$meta_keywords = "";
 
 switch(THIS_PAGE){
 
-    case '../index.php':
+    case 'index.php':
         $title = 'Welcome to Jane\'s Grow Space';
-        $logo = "fa-home";
         break;
 
-    case '../plants.php':
-        $title = 'Plants - Jane\'s Grow Space';
-        $logo = "fas fa-envelope";
+    case 'contact.php':
+        $title = 'Contact Me - Jane\'s Grow Space';
+        break;
+
+    case 'resources.php':
+        $title = 'Resouces - Jane\'s Grow Space';
         break;
 }
 

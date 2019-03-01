@@ -1,58 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title><?=$title?></title>
-    <meta name="viewport" content="width=device-width" />
-    <meta name="robots" content="noindex,nofollow" />
-    <meta charset="utf-8">
-    <!--  <script src="https://use.fontawesome.com/6a71565c22.js"></script>-->
-    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
-    <script src="https://s3.amazonaws.com/menumaker/menumaker.min.js"></script>
-    <script src="js/script.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-
-    <link rel="stylesheet" href="css/nav.css" />
-    <link rel="stylesheet" href="css/big.css" />
-    <link rel="stylesheet" href="css/form.css" />
-
-    <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Special+Elite'>
-    <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Ubuntu'>
-    <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Libre+Baskerville'>
-    <style>
-        h1, h2, h3, p, td, tr, th {
-            font-family: 'Ubuntu', sans-serif;
-        }
-
-        input:required, input:optional, textarea:optional, label {
-            font-family: 'Special Elite', sans-serif;
-        }
-    </style>
+  <title><?=$title?></title>
+  <meta name="viewport" content="width=device-width" />
+  <meta name="robots" content="noindex,nofollow" />
+  <!--  @todo: add meta description & keywords-->
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/nav.css" />
+  <link rel="stylesheet" href="css/fp.css" />
+  <link rel="stylesheet" href="css/form.css" />
+  <link rel="stylesheet" href="css/grid.css" />
+  <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates%7CUbuntu%7COswald" rel="stylesheet">
 </head>
 
 <body>
 <!-- START WRAPPER -->
 <div class="wrapper">
-    <header>
-        <h1><a href="index.php"><i class="logo fa fa-home"></i> Dan Jack | Web Examples &amp; Research Articles</a></h1>
-        <nav id="cssmenu">
-            <ul>
-                <li><a href="../index.php"><span><i class="fa fa-fw fa-bank"></i> WEB120 Portal</span></a></li>
-                <li><a href="index.php"><span><i class="fa fa-fw fa-home"></i> Home</span></a></li>
-                <li><a href="flexbox.php"><span>Flexbox</span></a></li>
-                <li><a href="galleries.php"><span>Galleries</span></a></li>
-                <!--        Drop down nav-->
-                <li><a href="google.php"><span><i class="fa fa-fw fa-chevron-down"></i> Google</span></a>
-                    <ul>
-                        <li><a href="calendar.php"><span>Calendar</span></a></li>
-                        <li><a href="map.php"><span>Map</span></a></li>
-                        <li><a href="youtube.php"><span>YouTube</span></a></li>
-                    </ul>
-                </li>
-                <!--        End drop down -->
-                <li><a href="shoppingcarts.php"><span>Shopping Carts</span></a></li>
-                <li><a href="siteapp.php"><span>Site vs App</span></a></li>
-                <li><a href="webcam.php"><span>Web Cam</span></a></li>
-            </ul>
-        </nav>
+  <div class="section group hdr-bg-img" id="hdr-bg-img">
+    <header class="col span_6_of_6 header header-bg-img" id="header">
+      <a href="index.php"><h1 id="banner-heading">Jane's Grow Space</h1></a>
+      <nav id="navbar" class="navbar navbar-scroll-color"> <!-- + class="sticky" onScroll-->
+        <a href="index.php"><span>Home</span></a>
+        <a href="plants.php"><span>Plants</span></a>
+        <a href="resources.php"><span>Resources</span></a>
+        <a href="contact.php"><span>Contact</span></a>
+        <a href="#shopping_cart"><span><img id="cart-icon" src="images/icons/shopping-cart.svg" alt="Shopping Cart
+          icon"></span></a>
+        <!--Icons made by Stephen Hutchings from "https://www.flaticon.com/authors/stephen-hutchings" is licensed
+         by Creative Commons BY 3.0"-->
+        <a href="#" class="icon" onclick="responsiveNav()">☰</a>
+      </nav>
+      <p id="content-start"></p>
     </header>
+  </div>
     <!--  end header file here -->
