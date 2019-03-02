@@ -10,6 +10,7 @@
     <script src="https://s3.amazonaws.com/menumaker/menumaker.min.js"></script>
     <script src="js/script.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
     <link rel="stylesheet" href="css/nav.css" />
     <link rel="stylesheet" href="css/big.css" />
@@ -22,7 +23,8 @@
 <!-- START WRAPPER -->
 <div class="wrapper">
     <header>
-        <h1><a href="index.php"><i class="logo fa fa-home"></i> Dan Jack | Web Examples &amp; Research Articles</a></h1>
+        <h1><a href="index.php"><i class="logo <?=$logo?>"></i> Dan Jack | Web Examples &amp; Research
+            Articles</a></h1>
         <nav id="cssmenu">
             <ul>
                 <li><a href="../index.php"><span><i class="fa fa-fw fa-bank"></i> WEB120 Portal</span></a></li>
@@ -40,6 +42,7 @@
                 <!--        End drop down -->
                 <li><a href="shoppingcarts.php"><span>Shopping Carts</span></a></li>
                 <li><a href="siteapp.php"><span>Site vs App</span></a></li>
+                <li><a href="webcam.php"><span>Web Cam</span></a></li>
             </ul>
         </nav>
     </header>

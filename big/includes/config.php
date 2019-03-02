@@ -32,12 +32,47 @@ switch(THIS_PAGE){
 
     case 'index.php':
         $title = 'Dan\'s Big Home Page!';
-        $logo = "fa-home";
+        $logo = "fa fa-home";
         break;
 
-    case 'contactme.php':
-        $title = 'Dan\'s Contact Page!';
-        $logo = "fas fa-envelope";
+    case 'calendar.php':
+        $title = 'Google Calendar - Big Research';
+        $logo = "fas fa-calendar-alt";
+        break;
+
+    case 'flexbox.php':
+        $title = 'Flexbox - Big Research';
+        $logo = "fas fa-boxes";
+        break;
+
+    case 'galleries.php':
+        $title = 'Galleries - Big Research';
+        $logo = "fas fa-images";
+        break;
+
+    case 'map.php':
+        $title = 'Google Map - Big Research';
+        $logo = "fas fa-map-marked-alt";
+        break;
+
+    case 'shoppingcarts.php':
+        $title = 'Shopping Carts - Big Research';
+        $logo = "fas fa-shopping-cart";
+        break;
+
+    case 'youtube.php':
+        $title = 'YouTube - Big Research';
+        $logo = "fas fa-youtube";
+        break;
+
+    case 'webcam.php':
+        $title = 'Web Cams - Big Research';
+        $logo = "fas fa-video";
+        break;
+
+    case 'siteapp.php':
+        $title = 'Site vs App - Big Research';
+        $logo = "fas fa-mobile";
         break;
 }
 
