@@ -53,6 +53,11 @@ div.embed-container iframe {
     text-align: center;
 }
 
+div.dot iframe {
+    border: 0;
+    overflow: hidden;
+}
+
 /* End Embed Responsively Rules! */
 
 /*HIDE AGENDA VIEW CALENDAR*/
