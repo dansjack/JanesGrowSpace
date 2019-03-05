@@ -8,19 +8,25 @@
     <!-- START RIGHT COL -->
     <main class="col span_4_of_6">
       <h2>FAQ</h2>
-      <button class="accordion">Section 1</button>
+      <button class="accordion">My plant arrived dead or damaged, can I get a refund?</button>
       <div class="panel">
-        <p>Lorem ipsum...</p>
+        <p>If your plant arrived dead you can get a refund after providing a pic of the plant.</p>
       </div>
 
-      <button class="accordion">Section 2</button>
+      <button class="accordion">I think my plant is dying. Can you nurse it back to health?</button>
       <div class="panel">
-        <p>Lorem ipsum...</p>
+        <p>
+          Yes! I am happy to take any of your plants, make an assessment, and either rehab them or let you know if
+          it's beyond repair. Please be sure to fill out the contact form and describe the problem you're having.
+        </p>
       </div>
 
-      <button class="accordion">Section 3</button>
+      <button class="accordion">Can you let me know when you have new clippings in stock?</button>
       <div class="panel">
-        <p>Lorem ipsum...</p>
+        <p>
+          Sure thing! Just fill out the contact form and make sure to click "Yes" under the "Would you like to be
+          alerted when new clippings are available?" field.
+        </p>
       </div>
       <p>Stare at ceiling attack the child or murr i hate humans they are so annoying eat the rubberband.
         Asdflkjaertvlkjasntvkjn (sits on keyboard) soft kitty warm kitty little ball of furr, step on your keyboard
@@ -36,23 +42,37 @@
     </main>
     <!-- END RIGHT COL -->
     <!-- START LEFT COL -->
-    <aside class="col span_2_of_6">
-      <h3>Aside</h3>
+    <aside class="col span_2_of_6 resource-links">
+      <h3>Links</h3>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-        dolore magna aliqua. Tristique risus nec feugiat in fermentum posuere urna nec tincidunt. Et netus et
-        malesuada fames ac turpis. Dictum fusce ut placerat orci. Morbi quis commodo odio aenean sed adipiscing diam
-        . Elit eget gravida cum sociis natoque. Tempor id eu nisl nunc mi ipsum faucibus vitae aliquet. Sed velit
-        dignissim sodales ut eu sem. Nunc sed augue lacus viverra vitae congue eu. Est ante in nibh mauris. Eleifend
-        mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Eget nulla facilisi etiam dignissim diam
-        quis enim lobortis. Consequat mauris nunc congue nisi vitae suscipit tellus. Sed blandit libero volutpat sed
-        cras. Nulla at volutpat diam ut venenatis tellus in metus vulputate. Cats woo i cry and cry and cry unless
-        you pet me, and then maybe i cry just for fun but mice, or lies down tuxedo cats always looking dapper but
-        milk the cow. Hopped up on catnip swat turds around the house yet refuse to leave cardboard box yet spit up
-        on light gray carpet instead of adjacent linoleum for cat dog hate mouse eat string barf pillow no baths
-        hate everything. Lick master's hand at first then bite because im moody check cat door for ambush 10 times
-        before coming in.
+        Alternative Boutiques and Nurseries:
       </p>
+      <ul>
+        <li>
+          <a href="https://columbiacitybouquet.com/" target="_blank">Columbia City Boutique</a>
+        </li>
+        <li>
+          <a href="https://peaceloveandhappiness.club/" target="_blank">Peace Love and Happiness Club</a>
+        </li>
+        <li>
+          <a href="http://pistilsnursery.com/" target="_blank">Pistils Nursery</a>
+        </li>
+        <li>
+          <a href="https://www.westseattlenursery.com/" target="_blank">West Seattle Nursery & Garden Center</a>
+        </li>
+      </ul>
+      <p>
+        Plant Care and Identification:
+      </p>
+      <ul>
+        <li>
+          <a href="https://www.gardeningknowhow.com/" target="_blank">Gardening Know How</a>
+        </li>
+        <li>
+          <a href="https://plants.ces.ncsu.edu/" target="_blank">NC State Extension - Plants</a>
+        </li>
+      </ul>
+
     </aside>
   </div>
   <!-- END LEFT COL -->

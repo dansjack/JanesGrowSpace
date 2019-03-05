@@ -111,15 +111,19 @@ footer > p > a:last-of-type {
 
 /****************************
   START ACCORDION FAQ STYLES
+  (https://www.w3schools.com/howto/howto_js_accordion.asp)
  ****************************/
 
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
-    background-color: #eee;
-    color: #444;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    background-color: #F9E7E7;
+    color: #2274A5;
     cursor: pointer;
-    padding: 18px;
-    width: 100%;
+    padding: 18px 30px;
+    margin: 0 30px;
+    width: 90%;
     text-align: left;
     border: none;
     outline: none;
@@ -128,13 +132,15 @@ footer > p > a:last-of-type {
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active, .accordion:hover {
-    background-color: #ccc;
+    background-color: #FFBF00;
 }
 
 /* Style the accordion panel. Note: hidden by default */
 .panel {
-    padding: 0 18px;
-    background-color: white;
+    padding: 0;
+    margin: 0 30px;
+    width: 90%;
+    background-color: #FFBF00;
     overflow: hidden;
     max-height: 0;
     transition: max-height 0.2s ease-out;
@@ -156,6 +162,31 @@ footer > p > a:last-of-type {
   END ACCORDION FAQ STYLES
  ****************************/
 
+/****************************
+  START RESOURCE LINK STYLES
+ ****************************/
+.resource-links p {
+    margin-bottom: 0;
+}
+.resource-links ul {
+    margin-top: 0;
+    list-style-type: none;
+}
+
+.resource-links a {
+    color: #F9E7E7;
+    line-height: 1.4em;
+}
+
+.resource-links a:link, .resource-links a:visited {
+    text-decoration: none;
+
+}
+
+.resource-links a:hover, .resource-links a:active {
+    text-decoration: underline;
+    text-decoration-color: #FFBF00;
+}
 /****************************
   START RESPONSIVE STYLES
  ****************************/
