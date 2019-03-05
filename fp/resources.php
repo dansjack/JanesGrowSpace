@@ -7,7 +7,21 @@
   <div class="section group main-aside">
     <!-- START RIGHT COL -->
     <main class="col span_4_of_6">
-      <h2>Main</h2>
+      <h2>FAQ</h2>
+      <button class="accordion">Section 1</button>
+      <div class="panel">
+        <p>Lorem ipsum...</p>
+      </div>
+
+      <button class="accordion">Section 2</button>
+      <div class="panel">
+        <p>Lorem ipsum...</p>
+      </div>
+
+      <button class="accordion">Section 3</button>
+      <div class="panel">
+        <p>Lorem ipsum...</p>
+      </div>
       <p>Stare at ceiling attack the child or murr i hate humans they are so annoying eat the rubberband.
         Asdflkjaertvlkjasntvkjn (sits on keyboard) soft kitty warm kitty little ball of furr, step on your keyboard
         while you're gaming and then turn in a circle twitch tail in permanent irritation yet poop on floor and
@@ -19,21 +33,6 @@
         empty rooms yet bird bird bird bird bird bird human why take bird out i could have eaten that but bite the
         neighbor's bratty kid.
       </p>
-      <p>
-        Find something else more interesting, for hiding behind the couch until lured out by
-        a feathery toy that box? i can fit in that box groom forever, stretch tongue and leave it slightly out, blep
-        or intently sniff hand spill litter box, scratch at owner, destroy all furniture, especially couch. Sleeps
-        on my head ooooh feather moving feather!, and chase red laser dot if human is on laptop sit on the keyboard.
-        If it smells like fish eat as much as you wish meowzer for scratch my tummy actually i hate you now fight
-        me, so spill litter box, scratch at owner, destroy all furniture, especially couch, hide when guests come
-        over. Do i like standing on litter cuz i sits when i have spaces, my cat buddies have no litter i live in
-        luxury cat life i am the best play riveting piece on synthesizer keyboard and sleep in the bathroom sink. Be
-        superior stare at guinea pigs touch my tail, i shred your hand purrrr so sit on human they not getting up
-        ever i love cuddles or then cats take over the world for bleghbleghvomit my furball really tie the room
-        together. Toy mouse squeak roll over.
-      </p>
-      <img class="main-img-1" src="images/stock/plants-stock-1.jpg" alt="plant-stock-1">
-      <img class="main-img-2" src="images/stock/plants-stock-2.jpg" alt="plant-stock-2">
     </main>
     <!-- END RIGHT COL -->
     <!-- START LEFT COL -->

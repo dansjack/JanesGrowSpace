@@ -1,16 +1,14 @@
+//---START NAV BAR SCRIPTS---//
 // When the user scrolls the page, execute stickyNav
 window.onscroll = function() {stickyNav()};
 
 // Get the navbar
 var navbar = document.getElementById("navbar");
-var content = document.getElementById("content-start");
 var mobile = window.matchMedia("(min-width: 769px)");
-
 
 
 // Get the offset position of the navbar
 var sticky = navbar.offsetTop;
-// var sticky = content.offsetTop;
 
 
 // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
@@ -36,4 +34,27 @@ function responsiveNav() {
         x.className = "navbar navbar-scroll-color";
     }
 }
+
+//---END NAV BAR SCRIPTS---//
+
+//---START ACCORDION FAQ SCRIPT---//
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.maxHeight){
+            panel.style.maxHeight = null;
+        } else {
+            panel.style.maxHeight = panel.scrollHeight + "px";
+        }
+    });
+}
+
+//---END ACCORDION FAQ SCRIPT---//
+
+
+
 
