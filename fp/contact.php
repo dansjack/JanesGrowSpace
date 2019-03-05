@@ -7,7 +7,6 @@
   <div class="section group main-aside">
     <!-- START RIGHT COL -->
     <main class="col span_4_of_6">
-      <h2>Contact Form</h2>
         <?PHP include 'includes/multiple.php';?>
     </main>
     <!-- END RIGHT COL -->

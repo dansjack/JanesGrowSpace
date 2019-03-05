@@ -86,10 +86,10 @@ if ($response != null && $response->success)
 	<div>
     <br  />
 		<fieldset>
-			<legend>What Services Are You Interested In?</legend>
-			<input type="checkbox" name="Interested_In[]" value="New Website" tabindex="40" /> New Website <br />
-			<input type="checkbox" name="Interested_In[]" value="Website Redesign" /> Website Redesign <br />
-			<input type="checkbox" name="Interested_In[]" value="Special Application" /> Special Application <br />
+			<legend>What Do You Need?</legend>
+			<input type="checkbox" name="Interested_In[]" value="More info on plant" tabindex="40" /> More Info on a Plant
+      <br />
+			<input type="checkbox" name="Interested_In[]" value="Plant Doctor" /> Plant Doctor Service <br />
 			<input type="checkbox" name="Interested_In[]" value="Other" /> Other <br />
 		</fieldset>
 	</div>
@@ -97,7 +97,7 @@ if ($response != null && $response->success)
 		<div>
     <br  />
 		<fieldset>
-			<legend>Would you like to join my mailing list?</legend>
+			<legend>Would you like to be alerted when new clippings are available?</legend>
 			<input type="radio" name="Join_Mailing_List?" value="Yes" 
 			required="required" title="Mailing list is required" tabindex="50"  
 			/> Yes <br />
@@ -106,7 +106,8 @@ if ($response != null && $response->success)
 	</div>
 	<div>	
 		<label>
-      <br  />Comments:<br /><textarea name="Comments" placeholder="Your comments are important!" tabindex="60"></textarea>
+      <br  />Comments:<br /><textarea name="Comments" placeholder="Tell me about your problem or question"
+                                      tabindex="60"></textarea>
 		</label>
 	</div>	
 	<div><?=$feedback;?></div>

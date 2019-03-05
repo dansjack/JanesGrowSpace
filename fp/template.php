@@ -18,7 +18,6 @@
   <div class="section group hdr-bg-img" id="hdr-bg-img">
     <header class="col span_6_of_6 header header-bg-img" id="header">
         <a href="template.php"><h1 id="banner-heading">Jane's Grow Space</h1></a>
-        <!--@todo icon for shopping cart-->
         <nav id="navbar" class="navbar navbar-scroll-color"> <!-- + class="sticky" onScroll-->
           <a href="template.php"><span>Home</span></a>
           <a href="plants.php"><span>Plants</span></a>
