@@ -6,7 +6,7 @@
   </div>
   <div class="section group main-aside">
     <!-- START RIGHT COL -->
-    <main class="col span_4_of_6">
+    <main class="col span_4_of_6 main-two-col">
         <?PHP include 'includes/multiple.php';?>
     </main>
     <!-- END RIGHT COL -->

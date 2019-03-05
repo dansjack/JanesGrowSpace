@@ -6,7 +6,7 @@
   </div>
   <div class="section group main-aside">
     <!-- START RIGHT COL -->
-    <main class="col span_4_of_6">
+    <main class="col span_4_of_6 main-two-col">
       <h2>FAQ</h2>
       <button class="accordion">My plant arrived dead or damaged, can I get a refund?</button>
       <div class="panel">
