@@ -22,6 +22,7 @@
 <!-- END Footer -->
 
 </div>
+<script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
 <script src="js/script.js"></script>
 <!-- END WRAPPER -->
 

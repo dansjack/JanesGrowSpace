@@ -189,11 +189,25 @@ footer > p > a:last-of-type {
 }
 
 /****************************
-  END RESOURCE LINK STYLES
+   END RESOURCE LINK STYLES
  ****************************/
 
 /****************************
-  START RESPONSIVE STYLES
+    START IG IFRAME STYLES
+ ****************************/
+
+iframe {
+    width: 100%;
+    border:0;
+    overflow:hidden;
+}
+
+/****************************
+    END IG IFRAME STYLES
+ ****************************/
+
+/****************************
+    START RESPONSIVE STYLES
  ****************************/
 
 /* DESKTOP  If there is a res bigger than 1280, then do everything in wrapper*/
