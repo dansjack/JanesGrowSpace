@@ -41,9 +41,11 @@ switch(THIS_PAGE){
         break;
 
     case 'resources.php':
-        $title = 'Resouces - Jane\'s Grow Space';
+        $title = 'Resources - Jane\'s Grow Space';
+        break;
+
+    case 'plants.php':
+        $title = 'Plants - Jane\'s Grow Space';
         break;
 }
-
-
 ?>
