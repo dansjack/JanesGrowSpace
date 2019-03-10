@@ -8,26 +8,29 @@
     <!-- START RIGHT COL -->
     <main class="col span_4_of_6 main-two-col">
       <h2>FAQ</h2>
-      <button class="accordion">My plant arrived dead or damaged, can I get a refund?</button>
-      <div class="panel">
-        <p>If your plant arrived dead you can get a refund after providing a pic of the plant.</p>
+      <div class="faq-container">
+        <button class="accordion">My plant arrived dead or damaged, can I get a refund?</button>
+        <div class="panel">
+          <p>If your plant arrived dead you can get a refund after providing a pic of the plant.</p>
+        </div>
+
+        <button class="accordion">I think my plant is dying. Can you nurse it back to health?</button>
+        <div class="panel">
+          <p>
+            Yes! I am happy to take any of your plants, make an assessment, and either rehab them or let you know if
+            it's beyond repair. Please be sure to fill out the contact form and describe the problem you're having.
+          </p>
+        </div>
+
+        <button class="accordion">Can you let me know when you have new clippings in stock?</button>
+        <div class="panel">
+          <p>
+            Sure thing! Just fill out the contact form and make sure to click "Yes" under the "Would you like to be
+            alerted when new clippings are available?" field.
+          </p>
+        </div>
       </div>
 
-      <button class="accordion">I think my plant is dying. Can you nurse it back to health?</button>
-      <div class="panel">
-        <p>
-          Yes! I am happy to take any of your plants, make an assessment, and either rehab them or let you know if
-          it's beyond repair. Please be sure to fill out the contact form and describe the problem you're having.
-        </p>
-      </div>
-
-      <button class="accordion">Can you let me know when you have new clippings in stock?</button>
-      <div class="panel">
-        <p>
-          Sure thing! Just fill out the contact form and make sure to click "Yes" under the "Would you like to be
-          alerted when new clippings are available?" field.
-        </p>
-      </div>
       <p>Stare at ceiling attack the child or murr i hate humans they are so annoying eat the rubberband.
         Asdflkjaertvlkjasntvkjn (sits on keyboard) soft kitty warm kitty little ball of furr, step on your keyboard
         while you're gaming and then turn in a circle twitch tail in permanent irritation yet poop on floor and
