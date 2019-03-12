@@ -6,11 +6,11 @@
   <meta name="robots" content="noindex,nofollow" />
   <!--  @todo: add meta description & keywords-->
   <meta charset="utf-8">
+  <link rel="stylesheet" href="css/grid.css" />
   <link rel="stylesheet" href="css/nav.css" />
   <link rel="stylesheet" href="css/fp.css" />
-  <link rel="stylesheet" href="css/form.css" />
-  <link rel="stylesheet" href="css/grid.css" />
-  <?php echo $a; ?>
+  <?php echo $contact_form_css; ?>
+  <?php echo $plants_css; ?>
   <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates%7CUbuntu%7COswald" rel="stylesheet">
 </head>
 

@@ -29,7 +29,8 @@ date_default_timezone_set('America/Los_Angeles');
 $title = THIS_PAGE;
 $meta_description = "";
 $meta_keywords = "";
-$a = "";
+$plants_css = "";
+$contact_form_css = "";
 
 switch(THIS_PAGE){
 
@@ -39,6 +40,7 @@ switch(THIS_PAGE){
 
     case 'contact.php':
         $title = 'Contact Me - Jane\'s Grow Space';
+        $contact_form_css = '<link rel="stylesheet" href="css/form.css" />' . "\n";
         break;
 
     case 'resources.php':
@@ -47,7 +49,7 @@ switch(THIS_PAGE){
 
     case 'plants.php':
         $title = 'Plants - Jane\'s Grow Space';
-        $a = '<link rel="stylesheet" href="css/plants.css">' . "\n";
+        $plants_css = '<link rel="stylesheet" href="css/plants.css" />' . "\n";
         break;
 }
 ?>
