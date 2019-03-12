@@ -2,18 +2,20 @@
 <?PHP include 'includes/header.php';?>
     <!-- PAGE ID -->
     <div class="section group page-ID-container">
-        <p class="col span_6_of_6 page-ID">Home</p>
+        <p class="col span_6_of_6 page-ID">Plants</p>
     </div>
     <div class="section group main-aside">
         <!-- START COL -->
-        <main class="col span_6_of_6">
+        <main class="col span_6_of_6 plant-gallery">
           <section class="no-touch">
 
             <div class="wrap">
 
               <div class="box">
                 <div class="boxInner">
+                  <a href="index.php">
                   <img src="http://www.dwuser.com/education/content/creating-responsive-tiled-layout-with-pure-css/images/demo/1.jpg" />
+                  </a>
                   <div class="titleBox">An old greenhouse</div>
                 </div>
               </div>

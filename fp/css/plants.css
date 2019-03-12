@@ -3,10 +3,10 @@ Gallery styling courtesy of @duggiemitchell on CodePen.
 https://codepen.io/duggiemitchell/pen/OyGJqQ?editors=1100
  */
 
-/*
-Gallery styling courtesy of @duggiemitchell on CodePen.
-https://codepen.io/duggiemitchell/pen/OyGJqQ?editors=1100
- */
+
+/****************************
+ START DEFAULT GALLERY STYLES
+ ****************************/
 .wrap {
     overflow: hidden;
     margin: 10px;
@@ -44,6 +44,11 @@ https://codepen.io/duggiemitchell/pen/OyGJqQ?editors=1100
     -o-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
 }
+
+.plant-gallery img {
+    max-width: 100%;
+}
+
 section.no-touch .boxInner:hover .titleBox, section.touch .boxInner.touchFocus .titleBox {
     margin-bottom: 0;
 }
@@ -53,12 +58,20 @@ section.no-touch .boxInner:hover .titleBox, section.touch .boxInner.touchFocus .
         width: 100%;
         padding-bottom: 100%;
     }
+
+    .plant-gallery img { /* Overwrites FP main img style */
+        max-width: 100%;
+    }
 }
 @media only screen and (max-width : 650px) and (min-width : 481px) {
     /* Tablet view: 2 tiles */
     .box {
         width: 50%;
         padding-bottom: 50%;
+    }
+
+    .plant-gallery img {
+        max-width: 100%;
     }
 }
 @media only screen and (max-width : 1050px) and (min-width : 651px) {
@@ -67,6 +80,10 @@ section.no-touch .boxInner:hover .titleBox, section.touch .boxInner.touchFocus .
         width: 33.3%;
         padding-bottom: 33.3%;
     }
+
+    .plant-gallery img {
+        max-width: 100%;
+    }
 }
 @media only screen and (max-width : 1290px) and (min-width : 1051px) {
     /* Medium desktop: 4 tiles */
@@ -74,4 +91,20 @@ section.no-touch .boxInner:hover .titleBox, section.touch .boxInner.touchFocus .
         width: 25%;
         padding-bottom: 25%;
     }
+
+    .plant-gallery img {
+        max-width: 100%;
+    }
 }
+
+/****************************
+  END DEFAULT GALLERY STYLES
+ ****************************/
+
+/****************************
+  START CUSTOM GALLERY STYLES
+ ****************************/
+
+/****************************
+   END CUSTOM GALLERY STYLES
+ ****************************/
