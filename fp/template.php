@@ -20,7 +20,7 @@
         <a href="template.php"><h1 id="banner-heading">Jane's Grow Space</h1></a>
         <nav id="navbar" class="navbar navbar-scroll-color"> <!-- + class="sticky" onScroll-->
           <a href="template.php"><span>Home</span></a>
-          <a href="plants.php"><span>Plants</span></a>
+          <a href="plants/plants.php"><span>Plants</span></a>
           <a href="resources.php"><span>Resources</span></a>
           <a href="contact.php"><span>Contact</span></a>
           <a href="#shopping_cart"><span><img id="cart-icon" src="images/icons/shopping-cart.svg" alt="Shopping Cart

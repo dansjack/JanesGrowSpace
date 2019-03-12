@@ -29,8 +29,57 @@ date_default_timezone_set('America/Los_Angeles');
 $title = THIS_PAGE;
 $meta_description = "";
 $meta_keywords = "";
+
+
 $plants_css = "";
 $contact_form_css = "";
+
+
+//get URL and compare to array of top level URLs
+$url = $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
+$top_urls = array('danjack.dreamhosters.com/web120/fp/index.php', 'danjack.dreamhosters.com/web120/fp/resources.php',
+    'danjack.dreamhosters.com/web120/fp/contact.php');
+
+if (in_array($url, $top_urls) ) { // If at top level, use these vars
+    // Nav links
+    $nav['index.php'] = "Home";
+    $nav['plants/plants.php'] = "Plants";
+    $nav['resources.php'] = "Resources";
+    $nav['contact.php'] = "Contact";
+    $cart_icon = 'src="images/icons/shopping-cart.svg"';
+
+    // CSS and scripts
+    $js = 'src="js/script.js"';
+    $grid_css = '<link rel="stylesheet" href="css/grid.css" />' . "\n";
+    $nav_css = '<link rel="stylesheet" href="css/nav.css" />' . "\n";
+    $fp_css = '<link rel="stylesheet" href="css/fp.css" />' . "\n";
+
+    // Footer links
+    $footer_contact = 'href="contact.php"';
+    $ig_icon = 'src="images/icons/ig.svg"';
+    $email_icon = 'src="images/icons/envelope.svg"';
+
+} else { // If at plant level, use these instead
+    // Nav links
+    $nav['../index.php'] = "Home";
+    $nav['plants.php'] = "Plants";
+    $nav['../resources.php'] = "Resources";
+    $nav['../contact.php'] = "Contact";
+    $cart_icon = 'src="../images/icons/shopping-cart.svg"';
+
+    // CSS and scripts
+    $js = 'src="../js/script.js"';
+    $grid_css = '<link rel="stylesheet" href="../css/grid.css" />' . "\n";
+    $nav_css = '<link rel="stylesheet" href="../css/nav.css" />' . "\n";
+    $fp_css = '<link rel="stylesheet" href="../css/fp.css" />' . "\n";
+
+    // Footer links
+    $footer_contact = 'href="../contact.php"';
+    $ig_icon = 'src="../images/icons/ig.svg"';
+    $email_icon = 'src="../images/icons/envelope.svg"';
+}
+
+
 
 switch(THIS_PAGE){
 
@@ -45,19 +94,17 @@ switch(THIS_PAGE){
 
     case 'resources.php':
         $title = 'Resources - Jane\'s Grow Space';
+
         break;
 
     case 'plants.php':
         $title = 'Plants - Jane\'s Grow Space';
-        $plants_css = '<link rel="stylesheet" href="css/plants.css" />' . "\n";
+        $plants_css = '<link rel="stylesheet" href="../css/plants.css" />' . "\n";
         break;
 }
 
-//place URL & labels in the array here for navigation:
-$nav_top['index.php'] = "Home";
-$nav_top['plants/plants.php'] = "Plants";
-$nav_top['resources.php'] = "Resources";
-$nav_top['contact.php'] = "Contact";
+
+
 
 /*
 makeLinks function will create dynamic nav when called.

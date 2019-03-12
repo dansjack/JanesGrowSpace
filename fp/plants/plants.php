@@ -1,5 +1,5 @@
-<?PHP include 'includes/config.php';?>
-<?PHP include 'includes/header.php';?>
+<?PHP include '../includes/config.php';?>
+<?PHP include '../includes/header.php';?>
     <!-- PAGE ID -->
     <div class="section group page-ID-container">
         <p class="col span_6_of_6 page-ID">Plants</p>
@@ -120,4 +120,4 @@
         <!-- END COL -->
     </div>
     <!--START FOOTER HERE-->
-<?PHP include 'includes/footer.php';?>
+<?PHP include '../includes/footer.php';?>
