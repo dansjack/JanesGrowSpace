@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="css/fp.css" />
   <link rel="stylesheet" href="css/form.css" />
   <link rel="stylesheet" href="css/grid.css" />
+  <?php echo $a; ?>
   <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates%7CUbuntu%7COswald" rel="stylesheet">
 </head>
 
