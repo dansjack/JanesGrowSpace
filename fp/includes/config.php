@@ -52,4 +52,30 @@ switch(THIS_PAGE){
         $plants_css = '<link rel="stylesheet" href="css/plants.css" />' . "\n";
         break;
 }
+
+//place URL & labels in the array here for navigation:
+$nav_top['index.php'] = "Home";
+$nav_top['plants/plants.php'] = "Plants";
+$nav_top['resources.php'] = "Resources";
+$nav_top['contact.php'] = "Contact";
+
+/*
+makeLinks function will create dynamic nav when called.
+*/
+function makeLinks($linkArray)
+{
+    $myReturn = '';
+
+    foreach($linkArray as $url => $text)
+    {
+        if($url == THIS_PAGE)
+        {//selected page - add class reference
+            $myReturn .= '<a class="selected" href="' . $url . '">' . $text . '</a>' . PHP_EOL;
+        }else{
+            $myReturn .= '<a href="' . $url . '">' . $text . '</a>'  . PHP_EOL;
+        }
+    }
+
+    return $myReturn;
+}
 ?>
