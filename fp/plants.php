@@ -13,72 +13,102 @@
 
               <div class="box">
                 <div class="boxInner">
-                  <a href="index.php">
-                  <img src="http://www.dwuser.com/education/content/creating-responsive-tiled-layout-with-pure-css/images/demo/1.jpg" />
+                  <a href="/chinese_money_plant.php">
+                  <img src="http://www.dwuser.com/education/content/creating-responsive-tiled-layout-with-pure-css/images/demo/1.jpg"
+                       alt = "fill" title = "fill"/>
                   </a>
-                  <div class="titleBox">An old greenhouse</div>
+                  <div class="titleBox">Chinese Money Plant</div>
                 </div>
               </div>
 
               <div class="box">
                 <div class="boxInner">
-                  <img src="http://www.dwuser.com/education/content/creating-responsive-tiled-layout-with-pure-css/images/demo/2.jpg"  />
+                  <a href="#">
+                  <img src="http://www.dwuser.com/education/content/creating-responsive-tiled-layout-with-pure-css/images/demo/2.jpg"
+                       alt = "fill" title = "fill" />
+                  </a>
                   <div class="titleBox">Purple wildflowers</div>
                 </div>
               </div>
               <div class="box">
                 <div class="boxInner">
-                  <img src="http://www.dwuser.com/education/content/creating-responsive-tiled-layout-with-pure-css/images/demo/3.jpg" />
+                  <a href="#">
+                  <img src="http://www.dwuser.com/education/content/creating-responsive-tiled-layout-with-pure-css/images/demo/3.jpg"
+                       alt = "fill" title = "fill" />
+                  </a>
                   <div class="titleBox">A birdfeeder</div>
                 </div>
               </div>
               <div class="box">
                 <div class="boxInner">
-                  <img src="http://www.dwuser.com/education/content/creating-responsive-tiled-layout-with-pure-css/images/demo/10.jpg" />
+                  <a href="#">
+                  <img src="http://www.dwuser.com/education/content/creating-responsive-tiled-layout-with-pure-css/images/demo/10.jpg"
+                       alt = "fill" title = "fill" />
+                  </a>
                   <div class="titleBox">Crocus close-up</div>
                 </div>
               </div>
               <div class="box">
                 <div class="boxInner">
-                  <img src="http://www.dwuser.com/education/content/creating-responsive-tiled-layout-with-pure-css/images/demo/4.jpg" />
+                  <a href="#">
+                  <img src="http://www.dwuser.com/education/content/creating-responsive-tiled-layout-with-pure-css/images/demo/4.jpg"
+                       alt = "fill" title = "fill" />
+                  </a>
                   <div class="titleBox">The garden shop</div>
                 </div>
               </div>
               <div class="box">
                 <div class="boxInner">
-                  <img src="http://www.dwuser.com/education/content/creating-responsive-tiled-layout-with-pure-css/images/demo/5.jpg" />
+                  <a href="#">
+                  <img src="http://www.dwuser.com/education/content/creating-responsive-tiled-layout-with-pure-css/images/demo/5.jpg"
+                       alt = "fill" title = "fill" />
+                  </a>
                   <div class="titleBox">Spring daffodils</div>
                 </div>
               </div>
               <div class="box">
                 <div class="boxInner">
-                  <img src="http://www.dwuser.com/education/content/creating-responsive-tiled-layout-with-pure-css/images/demo/6.jpg" />
+                  <a href="#">
+                  <img src="http://www.dwuser.com/education/content/creating-responsive-tiled-layout-with-pure-css/images/demo/6.jpg"
+                       alt = "fill" title = "fill" />
+                  </a>
                   <div class="titleBox">Iris along the path</div>
                 </div>
               </div>
               <div class="box">
                 <div class="boxInner">
-                  <img src="http://www.dwuser.com/education/content/creating-responsive-tiled-layout-with-pure-css/images/demo/8.jpg" />
+                  <a href="#">
+                  <img src="http://www.dwuser.com/education/content/creating-responsive-tiled-layout-with-pure-css/images/demo/8.jpg"
+                       alt = "fill" title = "fill" />
+                  </a>
                   <div class="titleBox">The garden blueprint</div>
                 </div>
               </div>
               <div class="box">
                 <div class="boxInner">
-                  <img src="http://www.dwuser.com/education/content/creating-responsive-tiled-layout-with-pure-css/images/demo/9.jpg" />
+                  <a href="#">
+                  <img src="http://www.dwuser.com/education/content/creating-responsive-tiled-layout-with-pure-css/images/demo/9.jpg"
+                       alt = "fill" title = "fill" />
+                  </a>
                   <div class="titleBox">The patio</div>
                 </div>
               </div>
               <div class="box">
                 <div class="boxInner">
-                  <img src="http://www.dwuser.com/education/content/creating-responsive-tiled-layout-with-pure-css/images/demo/11.jpg" />
+                  <a href="#">
+                  <img src="http://www.dwuser.com/education/content/creating-responsive-tiled-layout-with-pure-css/images/demo/11.jpg"
+                       alt = "fill" title = "fill" />
+                  </a>
                   <div class="titleBox">Bumble bee collecting nectar</div>
                 </div>
               </div>
 
               <div class="box">
                 <div class="boxInner">
-                  <img src="http://www.dwuser.com/education/content/creating-responsive-tiled-layout-with-pure-css/images/demo/12.jpg" />
-                  <!--footer -->
+                  <a href="#">
+                  <img src="http://www.dwuser.com/education/content/creating-responsive-tiled-layout-with-pure-css/images/demo/12.jpg"
+                       alt = "fill" title = "fill" />
+                  </a>
                   <div class="titleBox">Winding garden path</div>
                 </div>
               </div>
