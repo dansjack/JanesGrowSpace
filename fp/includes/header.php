@@ -19,7 +19,7 @@
 <div class="wrapper">
   <div class="section group hdr-bg-img" id="hdr-bg-img">
     <header class="col span_6_of_6 header header-bg-img" id="header">
-      <a href="index.php"><h1 id="banner-heading">Jane's Grow Space</h1></a>
+      <a <?php echo $home; ?>><h1 id="banner-heading">Jane's Grow Space</h1></a>
       <nav id="navbar" class="navbar navbar-scroll-color"> <!-- + class="sticky" onScroll-->
           <?=makeLinks($nav)?>
 <!--        <a href="index.php"><span>Home</span></a>-->

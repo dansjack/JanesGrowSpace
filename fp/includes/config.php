@@ -54,7 +54,8 @@ if (in_array($url, $top_urls) ) { // If at top level, use these vars
     $nav_css = '<link rel="stylesheet" href="css/nav.css" />' . "\n";
     $fp_css = '<link rel="stylesheet" href="css/fp.css" />' . "\n";
 
-    // Footer links
+    // Header background & Footer links
+    $home = 'href="index.php"';
     $footer_contact = 'href="contact.php"';
     $ig_icon = 'src="images/icons/ig.svg"';
     $email_icon = 'src="images/icons/envelope.svg"';
@@ -74,6 +75,7 @@ if (in_array($url, $top_urls) ) { // If at top level, use these vars
     $fp_css = '<link rel="stylesheet" href="../css/fp.css" />' . "\n";
 
     // Footer links
+    $home = 'href="../index.php"';
     $footer_contact = 'href="../contact.php"';
     $ig_icon = 'src="../images/icons/ig.svg"';
     $email_icon = 'src="../images/icons/envelope.svg"';
