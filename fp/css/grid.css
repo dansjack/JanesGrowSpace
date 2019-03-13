@@ -62,12 +62,16 @@
 
 /* DESKTOP */
 @media all and (min-width:769px) {
-    .main-aside {
+    .main-aside, .main-aside-plants {
         display: flex !important;
     }
 
     .main-two-col, aside {
         margin: 1% 0 1% 1.6% !important;
+    }
+
+    .main-plant-col {
+        margin-right: 1.6% !important;
     }
 
     aside {

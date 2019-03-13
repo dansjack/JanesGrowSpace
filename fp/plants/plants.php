@@ -13,7 +13,7 @@
 
               <div class="box">
                 <div class="boxInner">
-                  <a href="/chinese_money_plant.php">
+                  <a href="chinese_money_plant.php">
                   <img src="http://www.dwuser.com/education/content/creating-responsive-tiled-layout-with-pure-css/images/demo/1.jpg"
                        alt = "fill" title = "fill"/>
                   </a>

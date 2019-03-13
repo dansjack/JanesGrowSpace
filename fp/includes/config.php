@@ -40,7 +40,7 @@ $url = $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
 $top_urls = array('danjack.dreamhosters.com/web120/fp/index.php', 'danjack.dreamhosters.com/web120/fp/resources.php',
     'danjack.dreamhosters.com/web120/fp/contact.php');
 
-if (in_array($url, $top_urls) ) { // If at top level, use these vars
+if (in_array($url, $top_urls) ) { // If at top level, use these elements & vars
     // Nav links
     $nav['index.php'] = "Home";
     $nav['plants/plants.php'] = "Plants";

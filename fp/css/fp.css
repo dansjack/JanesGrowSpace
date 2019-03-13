@@ -42,11 +42,11 @@ h1 {
     text-align: center;
 }
 
-h1, h2, h3, p {
+h1, h2, h3, h4, p {
     font-family: 'Montserrat Alternates', sans-serif;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     color: #F9E7E7;
 }
 
@@ -71,7 +71,7 @@ aside p, main p {
     padding: 10px 30px;
 }
 
-aside h3, main h2 {
+aside h3, aside h4, main h2 {
     padding: 10px 30px;
 }
 
@@ -107,6 +107,31 @@ footer > p > a:last-of-type {
 
 /****************************
      END FP GLOBAL STYLES
+ ****************************/
+
+/****************************
+   START PLANT PAGES STYLES
+ ****************************/
+
+.cname {
+    margin-bottom: 0;
+}
+
+.sname {
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.add-to-cart {
+    display: inline-block;
+}
+
+#product-component-51b70ef1e2f {
+    padding-left: 30px;
+}
+
+/****************************
+    END PLANT PAGES STYLES
  ****************************/
 
 /****************************
