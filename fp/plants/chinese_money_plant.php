@@ -25,7 +25,7 @@
         <aside class="col span_3_of_6">
             <h3 class="cname">Chinese Money Plant</h3>
             <h4 class="sname"><em>(Pilea peperomioides)</em></h4>
-            <div id='product-component-51b70ef1e2f'></div>
+            <div id='product-component-b5209b17f7d'></div>
             <script type="text/javascript">
                 /*<![CDATA[*/
 
@@ -58,7 +58,7 @@
                         ShopifyBuy.UI.onReady(client).then(function (ui) {
                             ui.createComponent('product', {
                                 id: [1759671713843],
-                                node: document.getElementById('product-component-51b70ef1e2f'),
+                                node: document.getElementById('product-component-b5209b17f7d'),
                                 moneyFormat: '%24%7B%7Bamount%7D%7D',
                                 options: {
                                     "product": {
@@ -83,26 +83,77 @@
                                                     "margin-bottom": "50px"
                                                 }
                                             },
+                                            "button": {
+                                                "background-color": "#ffbf00",
+                                                "color": "#2274a5",
+                                                "font-family": "Montserrat, sans-serif",
+                                                ":hover": {
+                                                    "background-color": "#e6ac00",
+                                                    "color": "#2274a5"
+                                                },
+                                                "font-weight": "bold",
+                                                ":focus": {
+                                                    "background-color": "#e6ac00"
+                                                }
+                                            },
+                                            "variantTitle": {
+                                                "font-family": "Montserrat, sans-serif",
+                                                "font-weight": "normal"
+                                            },
                                             "title": {
                                                 "font-size": "26px"
                                             },
+                                            "description": {
+                                                "font-family": "Montserrat, sans-serif",
+                                                "font-weight": "normal"
+                                            },
                                             "price": {
-                                                "font-size": "18px"
+                                                "font-family": "Montserrat, sans-serif",
+                                                "font-size": "18px",
+                                                "font-weight": "normal"
                                             },
                                             "compareAt": {
-                                                "font-size": "15px"
+                                                "font-size": "15px",
+                                                "font-family": "Montserrat, sans-serif",
+                                                "font-weight": "normal"
                                             }
-                                        }
+                                        },
+                                        "googleFonts": [
+                                            "Montserrat",
+                                            "Montserrat",
+                                            "Montserrat",
+                                            "Montserrat",
+                                            "Montserrat"
+                                        ]
                                     },
                                     "cart": {
                                         "contents": {
                                             "button": true
                                         },
+                                        "text": {
+                                            "notice": "Shipping is added at checkout."
+                                        },
                                         "styles": {
+                                            "button": {
+                                                "background-color": "#ffbf00",
+                                                "color": "#2274a5",
+                                                "font-family": "Montserrat, sans-serif",
+                                                ":hover": {
+                                                    "background-color": "#e6ac00",
+                                                    "color": "#2274a5"
+                                                },
+                                                "font-weight": "bold",
+                                                ":focus": {
+                                                    "background-color": "#e6ac00"
+                                                }
+                                            },
                                             "footer": {
                                                 "background-color": "#ffffff"
                                             }
-                                        }
+                                        },
+                                        "googleFonts": [
+                                            "Montserrat"
+                                        ]
                                     },
                                     "modalProduct": {
                                         "contents": {
@@ -120,8 +171,85 @@
                                                     "margin-left": "0px",
                                                     "margin-bottom": "0px"
                                                 }
+                                            },
+                                            "button": {
+                                                "background-color": "#ffbf00",
+                                                "color": "#2274a5",
+                                                "font-family": "Montserrat, sans-serif",
+                                                ":hover": {
+                                                    "background-color": "#e6ac00",
+                                                    "color": "#2274a5"
+                                                },
+                                                "font-weight": "bold",
+                                                ":focus": {
+                                                    "background-color": "#e6ac00"
+                                                }
+                                            },
+                                            "variantTitle": {
+                                                "font-family": "Montserrat, sans-serif",
+                                                "font-weight": "normal"
+                                            },
+                                            "description": {
+                                                "font-family": "Montserrat, sans-serif",
+                                                "font-weight": "normal"
+                                            },
+                                            "price": {
+                                                "font-family": "Montserrat, sans-serif",
+                                                "font-weight": "normal"
+                                            },
+                                            "compareAt": {
+                                                "font-family": "Montserrat, sans-serif",
+                                                "font-weight": "normal"
                                             }
-                                        }
+                                        },
+                                        "googleFonts": [
+                                            "Montserrat",
+                                            "Montserrat",
+                                            "Montserrat",
+                                            "Montserrat",
+                                            "Montserrat"
+                                        ]
+                                    },
+                                    "toggle": {
+                                        "styles": {
+                                            "toggle": {
+                                                "font-family": "Montserrat, sans-serif",
+                                                "background-color": "#ffbf00",
+                                                ":hover": {
+                                                    "background-color": "#e6ac00"
+                                                },
+                                                "font-weight": "bold",
+                                                ":focus": {
+                                                    "background-color": "#e6ac00"
+                                                }
+                                            },
+                                            "count": {
+                                                "color": "#2274a5",
+                                                ":hover": {
+                                                    "color": "#2274a5"
+                                                }
+                                            },
+                                            "iconPath": {
+                                                "fill": "#2274a5"
+                                            }
+                                        },
+                                        "googleFonts": [
+                                            "Montserrat"
+                                        ]
+                                    },
+                                    "option": {
+                                        "styles": {
+                                            "label": {
+                                                "font-family": "Montserrat, sans-serif"
+                                            },
+                                            "select": {
+                                                "font-family": "Montserrat, sans-serif"
+                                            }
+                                        },
+                                        "googleFonts": [
+                                            "Montserrat",
+                                            "Montserrat"
+                                        ]
                                     },
                                     "productSet": {
                                         "styles": {
