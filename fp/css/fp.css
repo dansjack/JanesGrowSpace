@@ -55,12 +55,19 @@ h1, h2, h3, h4 {
     overflow: hidden; /* Keeps page ID container on the page*/
 }
 
-.page-ID {
-    padding: 0;
+.page-ID, .page-ID-home {
     margin-bottom: 0!important;
     margin-left: 30px!important;
     background: #F9E7E7!important;
     color: #2274A5;
+}
+
+.page-ID {
+    padding: 0;
+}
+
+.page-ID-home {
+    padding: 19px 0 0 0;
 }
 
 main, aside {

@@ -2,12 +2,12 @@
 <?PHP include 'includes/header.php';?>
   <!-- PAGE ID -->
   <div class="section group page-ID-container">
-    <p class="col span_6_of_6 page-ID">Home</p>
+    <p class="col span_6_of_6 page-ID-home"></p>
   </div>
   <div class="section group main-aside">
     <!-- START RIGHT COL -->
     <main class="col span_4_of_6 main-two-col">
-      <h2>Main</h2>
+      <h2>Welcome!</h2>
       <p>Stare at ceiling attack the child or murr i hate humans they are so annoying eat the rubberband.
         Asdflkjaertvlkjasntvkjn (sits on keyboard) soft kitty warm kitty little ball of furr, step on your keyboard
         while you're gaming and then turn in a circle twitch tail in permanent irritation yet poop on floor and

@@ -109,12 +109,20 @@ nav a:active {
 
   .navbar a:not(:first-child) {display: none;}
 
+  .navbar a:first-child {
+    text-align: left;
+    margin-left: 30px;
+  }
+
   .navbar a.icon {
     float: right;
     display: block;
   }
 
-  .navbar.responsive {position: relative;}
+  .navbar.responsive {
+    position: relative;
+    margin-top: -10px;
+  }
   .navbar.responsive a.icon {
     position: absolute;
     right: -14%;

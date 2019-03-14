@@ -2,7 +2,7 @@
 <?PHP include 'includes/header.php';?>
   <!-- PAGE ID -->
   <div class="section group page-ID-container">
-    <p class="col span_6_of_6 page-ID">Resources</p>
+    <p class="col span_6_of_6 page-ID">Home > Resources</p>
   </div>
   <div class="section group main-aside">
     <!-- START RIGHT COL -->
