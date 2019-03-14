@@ -30,8 +30,11 @@ nav a:active {
 #banner-heading {
   padding-bottom: 140px;
   margin-bottom: 0;
+  margin-left: 10px;
+  margin-right: 10px;
   font-size: 5em;
   color: #F9E7E7;
+  line-height: 97px;
 }
 
 #cart-icon {
@@ -60,19 +63,19 @@ nav a:active {
 @media all and (min-width:769px) {
 
   nav {
-    margin-top: 16px;
-    padding-top: 10px;
-    padding-bottom: 14px;
+    padding: 16px 0;
   }
 
   .sticky {
     position: fixed;
     top: 0;
-    margin-top: 0;
     width: calc(100% - 16px);
     background-color: #2274A5 !important;
     transition: background-color .4s ease-out;
     z-index: 1;
+    /*padding-top: 22px;*/
+    padding-bottom: 16px;
+
   }
 
   .un-sticky {
@@ -84,6 +87,14 @@ nav a:active {
   }
 
 }
+
+/* Keeps  nav in same position when header text is compressed*/
+@media all and (min-width:769px) and (max-width:801px), all and (max-width:514px) {
+  #banner-heading {
+    padding-bottom: 43px;
+  }
+}
+
 
 @media all and (max-width:768px) {
 
@@ -117,6 +128,8 @@ nav a:active {
   .navbar a.icon {
     float: right;
     display: block;
+    text-align: right;
+    margin-right: 30px;
   }
 
   .navbar.responsive {
@@ -125,8 +138,10 @@ nav a:active {
   }
   .navbar.responsive a.icon {
     position: absolute;
-    right: -14%;
-    top: 0;
+    right: 0;
+    top: 10px;
+    margin: 0 30px !important;
+    text-align: right;
   }
   .navbar.responsive a {
     float: none;
