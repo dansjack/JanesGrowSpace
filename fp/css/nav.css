@@ -47,9 +47,9 @@ nav a:active {
 
 
 
-.sticky + #content-start {
-  padding-top: 60px;
-}
+/*.sticky + #content-start {*/
+  /*padding-top: 60px;*/
+/*}*/
 
 /*************************
    SCROLLING NAV STYLES

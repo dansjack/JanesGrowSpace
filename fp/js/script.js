@@ -1,3 +1,7 @@
+
+
+
+
 //---START NAV BAR SCRIPTS---//
 // When the user scrolls the page, execute stickyNav
 window.onscroll = function() {stickyNav()};
@@ -10,9 +14,8 @@ var mobile = window.matchMedia("(min-width: 769px)");
 // Get the offset position of the navbar
 var sticky = navbar.offsetTop;
 
-
-// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
-function stickyNav() {
+// Add the sticky class to the navbar when you reach its scroll position.
+function stickyNav() { // Remove "sticky" when you leave the scroll position
     if (window.pageYOffset >= sticky && mobile.matches) {
         navbar.classList.add("sticky");
         navbar.classList.remove("un-sticky");
@@ -33,6 +36,12 @@ function responsiveNav() {
     } else {
         x.className = "navbar navbar-scroll-color";
     }
+}
+
+// reload the page on load -- band-aid for issue where sticky nav appears
+function MyReload() // at unexpected offset until the user reloads the page
+{
+    window.location.reload();
 }
 
 //---END NAV BAR SCRIPTS---//
