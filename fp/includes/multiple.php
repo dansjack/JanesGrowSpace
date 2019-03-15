@@ -18,8 +18,8 @@
  */
 
 #EDIT THE FOLLOWING:
-$toAddress = "dsjack89@gmail.com";  //place your/your client's email address here
-$toName = "Dan Jack"; //place your client's name here
+$toAddress = "janeyjackgrows@gmail.com";  //place your/your client's email address here
+$toName = "Janey Jack";
 $website = "danjack.dreamhosters.com";  //place NAME of your client's website here
 #--------------END CONFIG AREA ------------------------#
 $sendEmail = TRUE; //if true, will send an email, otherwise just show user data.
