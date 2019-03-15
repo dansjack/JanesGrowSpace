@@ -53,6 +53,10 @@ if (in_array($url, $top_urls) ) { // If at top level, use these elements & vars
     $grid_css = '<link rel="stylesheet" href="css/grid.css" />' . "\n";
     $nav_css = '<link rel="stylesheet" href="css/nav.css" />' . "\n";
     $fp_css = '<link rel="stylesheet" href="css/fp.css" />' . "\n";
+//    Normalize currenttly causes more problems than it solves. Will rework later
+//    $norm_css = '<link rel="stylesheet" href="css/normalize.css"/>' . "\n";
+
+
 
     // Header background & Footer links
     $home = 'href="index.php"';
@@ -73,6 +77,7 @@ if (in_array($url, $top_urls) ) { // If at top level, use these elements & vars
     $grid_css = '<link rel="stylesheet" href="../css/grid.css" />' . "\n";
     $nav_css = '<link rel="stylesheet" href="../css/nav.css" />' . "\n";
     $fp_css = '<link rel="stylesheet" href="../css/fp.css" />' . "\n";
+//    $norm_css = '<link rel="stylesheet" href="../css/normalize.css"/>' . "\n";
 
     // Footer links
     $home = 'href="../index.php"';

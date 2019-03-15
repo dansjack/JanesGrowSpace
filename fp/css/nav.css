@@ -88,15 +88,45 @@ nav a:active {
 
 }
 
+/*************************
+   START HEADER STYLES
+ ************************/
 /* Keeps  nav in same position when header text is compressed*/
-@media all and (min-width:769px) and (max-width:801px), all and (max-width:514px) {
+@media all and (min-width:769px) and (max-width:801px) {
   #banner-heading {
     padding-bottom: 43px;
   }
 }
 
+/* Keeps  responsive nav in same position when header text is compressed*/
+@media all and (min-width:633px) and (max-width:768px) {
+  #banner-heading {
+    padding-bottom: 182px;
+  }
+}
+
+@media all and (min-width:416px) and (max-width:632px) {
+  #banner-heading {
+    padding-bottom: 85px;
+  }
+}
+
+@media all and (max-width:415px) {
+  #banner-heading {
+    padding-bottom: 51px;
+    line-height: 1.2em;
+  }
+}
+
+/*************************
+     END HEADER STYLES
+ ************************/
 
 @media all and (max-width:768px) {
+
+  #banner-heading {
+    font-size: 4em;
+  }
 
   .sticky {
     position: fixed;
