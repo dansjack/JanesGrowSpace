@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head> <!--onLoad=" MyReload()"-->
+<head onLoad="MyReload()">
   <title><?=$title?></title>
   <meta name="viewport" content="width=device-width" />
   <meta name="robots" content="noindex,nofollow" />
