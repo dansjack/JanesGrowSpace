@@ -17,6 +17,10 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    margin: 8px;
+}
+
 .wrapper {
     margin: auto;
 }
@@ -233,7 +237,7 @@ footer > p > a:last-of-type {
     START IG IFRAME STYLES
  ****************************/
 
-iframe {
+.ig {
     width: 100%;
     border:0;
     overflow:hidden;
@@ -241,6 +245,18 @@ iframe {
 
 /****************************
     END IG IFRAME STYLES
+ ****************************/
+
+/****************************
+    START BUY BUTTON STYLES
+ ****************************/
+
+.buy-button {
+    margin-bottom: 30px;
+}
+
+/****************************
+    END BUY BUTTON STYLES
  ****************************/
 
 /****************************

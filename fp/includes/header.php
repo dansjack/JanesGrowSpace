@@ -6,6 +6,7 @@
   <meta name="robots" content="noindex,nofollow" />
   <!--  @todo: add meta description & keywords-->
   <meta charset="utf-8">
+  <?php echo $norm_css; ?>
   <?php echo $grid_css; ?>
   <?php echo $nav_css; ?>
   <?php echo $fp_css; ?>

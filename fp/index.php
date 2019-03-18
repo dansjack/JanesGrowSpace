@@ -38,7 +38,8 @@
     <aside class="col span_2_of_6">
       <h3>Instagram Feed</h3>
       <!-- LightWidget WIDGET -->
-      <p><iframe src="https://cdn.lightwidget.com/widgets/afaf31584a81571b80106b1d149589a7.html" class="lightwidget-widget"></iframe></p>
+      <p><iframe src="https://cdn.lightwidget.com/widgets/afaf31584a81571b80106b1d149589a7.html"
+                 class="lightwidget-widget ig"></iframe></p>
 
     </aside>
   </div>

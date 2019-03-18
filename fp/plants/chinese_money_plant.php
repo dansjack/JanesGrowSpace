@@ -23,7 +23,7 @@
             <p>Description: </p>
             <hr>
             <p>Care instructions:</p>
-            <div id='product-component-796c85fd6f4'></div>
+            <div id='product-component-796c85fd6f4' class="buy-button"></div>
             <script>
                 /*<![CDATA[*/
 

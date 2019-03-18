@@ -63,7 +63,7 @@ nav a:active {
 @media all and (min-width:769px) {
 
   nav {
-    padding: 16px 0;
+    padding: 18px 0;
   }
 
   .sticky {
@@ -73,8 +73,8 @@ nav a:active {
     background-color: #2274A5 !important;
     transition: background-color .4s ease-out;
     z-index: 1;
-    /*padding-top: 22px;*/
-    padding-bottom: 16px;
+    padding-top: 19px;
+    padding-bottom: 18px;
 
   }
 
@@ -126,6 +126,10 @@ nav a:active {
 
   #banner-heading {
     font-size: 4em;
+  }
+
+  nav a {
+    line-height: 1.4em;
   }
 
   .sticky {
