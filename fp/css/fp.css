@@ -117,6 +117,10 @@ footer > p > a:last-of-type {
     padding-left: 10px;
 }
 
+aside hr, main hr {
+    margin: 0 30px;
+}
+
 /****************************
      END FP GLOBAL STYLES
  ****************************/
@@ -206,32 +210,58 @@ footer > p > a:last-of-type {
 /****************************
   START RESOURCE LINK STYLES
  ****************************/
-.resource-links p {
+.resources-aside p {
     margin-bottom: 0;
 }
-.resource-links ul {
+
+.resources-aside > p {
+    color :#FFBF00
+}
+
+.resources-aside ul {
     margin-top: 0;
+    padding-right: 30px;
     list-style-type: none;
 }
 
-.resource-links a {
+.resources-aside ul, .resources-aside a {
+    color: #F9E7E7;
+}
+
+.resources-aside a {
     color: #F9E7E7;
     line-height: 1.4em;
 }
 
-.resource-links a:link, .resource-links a:visited {
+.resources-aside a:link, .resources-aside a:visited {
     text-decoration: none;
 
 }
 
-.resource-links a:hover, .resource-links a:active {
+.resources-aside a:hover, .resources-aside a:active {
     text-decoration: underline;
     text-decoration-color: #FFBF00;
+}
+
+.resources-aside ul:last-child li {
+    margin-bottom: 15px;
+
+}
+
+.resources-aside ul:last-child li:last-child {
+    margin-bottom: 30px;
+
+}
+
+.resources-aside ul:last-child p {
+    padding: 0;
+    margin: 0;
 }
 
 /****************************
    END RESOURCE LINK STYLES
  ****************************/
+
 
 /****************************
     START IG IFRAME STYLES
