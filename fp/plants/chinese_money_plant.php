@@ -17,12 +17,19 @@
             <h3 class="cname">Chinese Money Plant</h3>
             <h4 class="sname"><em>(Pilea peperomioides)</em></h4>
             <p>Cagtegory: </p>
-            <p>Family: </p>
-            <p>Type: </p>
-            <p>Origin: </p>
-            <p>Description: </p>
-            <hr>
-            <p>Care instructions:</p>
+            <p>Family: Urticaceae</p>
+            <p>Origin: China (Yunnan Province)</p>
+            <p>
+              Description: Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea
+              sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut
+              soko zucchini.
+            </p>
+            <p>
+              Care instructions: Turnip greens yarrow ricebean rutabaga endive cauliflower sea lettuce kohlrabi
+              amaranth water spinach avocado daikon napa cabbage asparagus winter purslane kale. Celery potato
+              scallion desert raisin horseradish spinach carrot soko. Lotus root water spinach fennel kombu maize
+              bamboo shoot green bean swiss chard seakale pumpkin onion chickpea gram corn pea.
+            </p>
             <div id='product-component-796c85fd6f4' class="buy-button"></div>
             <script>
                 /*<![CDATA[*/

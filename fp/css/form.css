@@ -35,3 +35,7 @@ textarea {
     height: 100px;
     resize: none;
 }
+
+.form-select {
+    font-size: 60%;
+}

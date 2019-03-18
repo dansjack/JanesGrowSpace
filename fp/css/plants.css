@@ -121,7 +121,12 @@ section.no-touch .boxInner:hover .titleBox, section.touch .boxInner.touchFocus .
 /****************************
   START CUSTOM GALLERY STYLES
  ****************************/
-
+@media all and (max-width:768px) {
+    /* Adds plant names to bottom of plant image by default */
+    .titleBox {
+        margin-bottom: 0!important;
+    }
+}
 /****************************
    END CUSTOM GALLERY STYLES
  ****************************/

@@ -72,7 +72,7 @@ if ($response != null && $response->success)
 	<div>	
 		<label>
       <br  />How Did You Hear About Me?:<br />
-			<select name="How_Did_You_Hear_About_Us?" required="required" title="How You Heard is required" tabindex="30">
+			<select class="form-select" name="How_Did_You_Hear_About_Us?" required="required" title="How You Heard is required" tabindex="30">
 				<option value="">Choose How You Heard</option>
 				<option value="Phone">Phone</option>
 				<option value="Web">Web</option>
