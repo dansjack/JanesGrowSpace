@@ -56,91 +56,98 @@
                   <div class="titleBox">Oak Leaf Philodendron</div>
                 </div>
               </div>
+
               <div class="box">
                 <div class="boxInner">
-                  <a href="#">
-                  <img src="http://www.dwuser.com/education/content/creating-responsive-tiled-layout-with-pure-css/images/demo/3.jpg"
-                       alt = "fill" title = "fill" />
+                  <a href="frangipani.php">
+                  <img src="../images/stock/plumeriaFree.jpg"
+                       alt = "Frangipani" title = "Frangipani" />
                   </a>
-                  <div class="titleBox">A birdfeeder</div>
-                </div>
-              </div>
-              <div class="box">
-                <div class="boxInner">
-                  <a href="#">
-                  <img src="http://www.dwuser.com/education/content/creating-responsive-tiled-layout-with-pure-css/images/demo/10.jpg"
-                       alt = "fill" title = "fill" />
-                  </a>
-                  <div class="titleBox">Crocus close-up</div>
-                </div>
-              </div>
-              <div class="box">
-                <div class="boxInner">
-                  <a href="#">
-                  <img src="http://www.dwuser.com/education/content/creating-responsive-tiled-layout-with-pure-css/images/demo/4.jpg"
-                       alt = "fill" title = "fill" />
-                  </a>
-                  <div class="titleBox">The garden shop</div>
-                </div>
-              </div>
-              <div class="box">
-                <div class="boxInner">
-                  <a href="#">
-                  <img src="http://www.dwuser.com/education/content/creating-responsive-tiled-layout-with-pure-css/images/demo/5.jpg"
-                       alt = "fill" title = "fill" />
-                  </a>
-                  <div class="titleBox">Spring daffodils</div>
-                </div>
-              </div>
-              <div class="box">
-                <div class="boxInner">
-                  <a href="#">
-                  <img src="http://www.dwuser.com/education/content/creating-responsive-tiled-layout-with-pure-css/images/demo/6.jpg"
-                       alt = "fill" title = "fill" />
-                  </a>
-                  <div class="titleBox">Iris along the path</div>
-                </div>
-              </div>
-              <div class="box">
-                <div class="boxInner">
-                  <a href="#">
-                  <img src="http://www.dwuser.com/education/content/creating-responsive-tiled-layout-with-pure-css/images/demo/8.jpg"
-                       alt = "fill" title = "fill" />
-                  </a>
-                  <div class="titleBox">The garden blueprint</div>
-                </div>
-              </div>
-              <div class="box">
-                <div class="boxInner">
-                  <a href="#">
-                  <img src="http://www.dwuser.com/education/content/creating-responsive-tiled-layout-with-pure-css/images/demo/9.jpg"
-                       alt = "fill" title = "fill" />
-                  </a>
-                  <div class="titleBox">The patio</div>
-                </div>
-              </div>
-              <div class="box">
-                <div class="boxInner">
-                  <a href="#">
-                  <img src="http://www.dwuser.com/education/content/creating-responsive-tiled-layout-with-pure-css/images/demo/11.jpg"
-                       alt = "fill" title = "fill" />
-                  </a>
-                  <div class="titleBox">Bumble bee collecting nectar</div>
+                  <div class="titleBox">Frangipani</div>
                 </div>
               </div>
 
               <div class="box">
                 <div class="boxInner">
-                  <a href="#">
-                  <img src="http://www.dwuser.com/education/content/creating-responsive-tiled-layout-with-pure-css/images/demo/12.jpg"
-                       alt = "fill" title = "fill" />
+                  <a href="chinese_evergreen.php">
+                  <img src="../images/stock/aglaonemaFree.jpg"
+                       alt = "Chinese Evergreen" title = "Chinese Evergreen" />
                   </a>
-                  <div class="titleBox">Winding garden path</div>
+                  <div class="titleBox">Chinese Evergreen</div>
+                </div>
+              </div>
+
+              <div class="box">
+                <div class="boxInner">
+                  <a href="ficus_audrey.php">
+                  <img src="../images/stock/ficusFree.jpg"
+                       alt = "Ficus Audrey" title = "Ficus Audrey" />
+                  </a>
+                  <div class="titleBox">Ficus Audrey</div>
+                </div>
+              </div>
+
+              <div class="box">
+                <div class="boxInner">
+                  <a href="button_fern.php">
+                  <img src="../images/stock/rotundifoliaFree.jpg"
+                       alt = "Button Fern" title = "Button Fern" />
+                  </a>
+                  <div class="titleBox">Button Fern</div>
+                </div>
+              </div>
+
+              <div class="box">
+                <div class="boxInner">
+                  <a href="split_leaf_philodendron.php">
+                  <img src="../images/stock/variegatedFree.jpg"
+                       alt = "Split Leaf Philodendron" title = "Split Leaf Philodendron" />
+                  </a>
+                  <div class="titleBox">Split Leaf Philodendron</div>
+                </div>
+              </div>
+
+              <div class="box">
+                <div class="boxInner">
+                  <a href="triostar.php">
+                  <img src="../images/stock/stromantheFree.JPG"
+                       alt = "Triostar" title = "Triostar" />
+                  </a>
+                  <div class="titleBox">Triostar</div>
+                </div>
+              </div>
+
+              <div class="box">
+                <div class="boxInner">
+                  <a href="cebu_blue_pothos.php">
+                  <img src="../images/stock/epipremnumFree.jpg"
+                       alt = "Cebu Blue Pothos" title = "Cebu Blue Pothos" />
+                  </a>
+                  <div class="titleBox">Cebu Blue Pothos</div>
+                </div>
+              </div>
+
+              <div class="box">
+                <div class="boxInner">
+                  <a href="dwarf_pineapple.php">
+                  <img src="../images/stock/pineappleFree.jpg"
+                       alt = "Dwarf Pineapple" title = "Dwarf Pineapple" />
+                  </a>
+                  <div class="titleBox">Dwarf Pineapple</div>
+                </div>
+              </div>
+
+                <div class="box">
+                  <div class="boxInner">
+                    <a href="philippine_orchid.php">
+                      <img src="../images/stock/medinillaFree.jpg"
+                           alt = "Philippine Orchid" title = "Philippine Orchid" />
+                    </a>
+                  <div class="titleBox">Philippine Orchid</div>
                 </div>
               </div>
 
             </div>
-
           </section>
         </main>
         <!-- END COL -->
