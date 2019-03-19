@@ -23,7 +23,7 @@
 
               <div class="box">
                 <div class="boxInner">
-                  <a href="#">
+                  <a href="plants_test.php">
                   <img src="http://www.dwuser.com/education/content/creating-responsive-tiled-layout-with-pure-css/images/demo/2.jpg"
                        alt = "fill" title = "fill" />
                   </a>

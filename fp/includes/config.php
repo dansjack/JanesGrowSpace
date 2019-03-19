@@ -109,6 +109,10 @@ switch(THIS_PAGE){
         $plants_css = '<link rel="stylesheet" href="../css/plants.css" />' . "\n";
         break;
 
+    case 'plants_test.php':
+        $plants_css = '<link rel="stylesheet" href="../css/plants.css" />' . "\n";
+        break;
+
     case 'chinese_money_plant.php':
         $title = 'Chinese Money Plant - Jane\'s Grow Space';
         break;

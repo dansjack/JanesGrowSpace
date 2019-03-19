@@ -63,7 +63,3 @@ for (i = 0; i < acc.length; i++) {
 }
 
 //---END ACCORDION FAQ SCRIPT---//
-
-
-
-
