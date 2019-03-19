@@ -7,6 +7,32 @@
     <div class="section group main-aside">
         <!-- START COL -->
         <main class="col span_6_of_6 plant-gallery">
+          <fieldset class="sizes">
+            <legend>Sizes</legend>
+            <input class="cb-filter" type="checkbox" name="x-large" value="x-large" />
+            <label class="cb-label">X-Large</label><br />
+            <input class="cb-filter" type="checkbox" name="large" value="large" />
+            <label class="cb-label">Large</label><br />
+            <input class="cb-filter" type="checkbox" name="medium" value="medium" />
+            <label class="cb-label">Medium</label><br />
+            <input class="cb-filter" type="checkbox" name="small" value="small" />
+            <label class="cb-label">Small</label>
+          </fieldset>
+          <fieldset class="light-level">
+            <legend>Light Level</legend>
+            <input class="cb-filter" type="checkbox" name="low-light" value="low-light" />
+            <label class="cb-label">Low Light</label><br />
+            <input class="cb-filter" type="checkbox" name="high-light" value="high-light" />
+            <label class="cb-label">High Light</label>
+          </fieldset>
+          <fieldset class="misc">
+            <legend>Misc</legend>
+            <input class="cb-filter" type="checkbox" name="pet-friendly" value="pet-friendly" />
+            <label class="cb-label">Pet friendly</label><br />
+            <input class="cb-filter" type="checkbox" name="drought-tolerant" value="drought-tolerant" />
+            <label class="cb-label">Drought Tolerant</label>
+          </fieldset>
+
           <section class="no-touch">
 
             <div class="wrap">
@@ -14,8 +40,8 @@
               <div class="box">
                 <div class="boxInner">
                   <a href="chinese_money_plant.php">
-                  <img src="http://www.dwuser.com/education/content/creating-responsive-tiled-layout-with-pure-css/images/demo/1.jpg"
-                       alt = "fill" title = "fill"/>
+                  <img src="../images/stock/pileaFree.jpg"
+                       alt = "Chinese Money Plant" title = "Chinese Money Plant"/>
                   </a>
                   <div class="titleBox">Chinese Money Plant</div>
                 </div>
@@ -23,11 +49,11 @@
 
               <div class="box">
                 <div class="boxInner">
-                  <a href="plants_test.php">
-                  <img src="http://www.dwuser.com/education/content/creating-responsive-tiled-layout-with-pure-css/images/demo/2.jpg"
-                       alt = "fill" title = "fill" />
+                  <a href="oak_leaf_philodendron.php">
+                  <img src="../images/stock/pedatumFree.jpg"
+                       alt = "Oak Leaf Philodendron" title = "Oak Leaf Philodendron" />
                   </a>
-                  <div class="titleBox">Purple wildflowers</div>
+                  <div class="titleBox">Oak Leaf Philodendron</div>
                 </div>
               </div>
               <div class="box">
