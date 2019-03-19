@@ -23,7 +23,9 @@
 
 </div>
 <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
-<script <?php echo $js; ?>></script>
+<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>-->
+  <script <?php echo $ajax; ?>></script>
+  <script <?php echo $js; ?>></script>
 <!-- END WRAPPER -->
 
 </body>
