@@ -18,10 +18,10 @@
     <h4 class="sname"><em>(Stromanthe sanguinea)</em></h4>
     <p>Categories:</p>
     <ul class="ctg-list">
-      <li><p>Maturity Size: (FILL)</p></li>
-      <li><p>Light: (FILL)</p></li>
-      <li><p>Humidity: (FILL)</p></li>
-      <li><p>Pet Friendly: (FILL)</p></li>
+      <li><p>Maturity Size: Medium</p></li>
+      <li><p>Light: Partial shade, indirect sun</p></li>
+      <li><p>Humidity: High</p></li>
+      <li><p>Pet Friendly: Yes</p></li>
     </ul>
     <p>Origin: Brazilian rain forests</p>
     <p>

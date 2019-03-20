@@ -18,10 +18,10 @@
         <h4 class="sname"><em>(Algaonema)</em></h4>
         <p>Categories:</p>
         <ul class="ctg-list">
-          <li><p>Maturity Size: (FILL)</p></li>
-          <li><p>Light: (FILL)</p></li>
-          <li><p>Humidity: (FILL)</p></li>
-          <li><p>Pet Friendly: (FILL)</p></li>
+          <li><p>Maturity Size: Medium</p></li>
+          <li><p>Light: Shade, partial shade, indirect sun</p></li>
+          <li><p>Humidity: Low</p></li>
+          <li><p>Pet Friendly: No</p></li>
         </ul>
         <p>Origin: Tropical and Subtropical Asia, New Guinea</p>
         <p>

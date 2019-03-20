@@ -18,10 +18,10 @@
             <h4 class="sname"><em>(Ficus benghalensis)</em></h4>
             <p>Categories:</p>
             <ul class="ctg-list">
-              <li><p>Maturity Size: (FILL)</p></li>
-              <li><p>Light: (FILL)</p></li>
-              <li><p>Humidity: (FILL)</p></li>
-              <li><p>Pet Friendly: (FILL)</p></li>
+              <li><p>Maturity Size: Large</p></li>
+              <li><p>Light: Indirect sun</p></li>
+              <li><p>Humidity: High</p></li>
+              <li><p>Pet Friendly: No</p></li>
             </ul>
             <p>Origin: India</p>
             <p>

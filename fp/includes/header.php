@@ -24,9 +24,6 @@
       <a <?php echo $home; ?>><h1 id="banner-heading">Jane's Grow Space</h1></a>
       <nav id="navbar" class="navbar navbar-scroll-color"> <!-- + class="sticky" onScroll-->
           <?=makeLinks($nav)?>
-        <a href="#shopping_cart"><span><img id="cart-icon" <?php echo $cart_icon; ?> alt="Shopping Cart"></span></a>
-        <!--Icons made by Stephen Hutchings from "https://www.flaticon.com/authors/stephen-hutchings" is licensed
-         by Creative Commons BY 3.0"-->
         <a href="javascript:void(0);" class="icon" onclick="responsiveNav()">☰</a>
       </nav>
       <p id="content-start"></p>

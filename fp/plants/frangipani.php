@@ -18,10 +18,10 @@
             <h4 class="sname"><em>(Plumeria)</em></h4>
             <p>Categories:</p>
             <ul class="ctg-list">
-              <li><p>Maturity Size: (FILL)</p></li>
-              <li><p>Light: (FILL)</p></li>
-              <li><p>Humidity: (FILL)</p></li>
-              <li><p>Pet Friendly: (FILL)</p></li>
+              <li><p>Maturity Size: Large</p></li>
+              <li><p>Light: Full sun</p></li>
+              <li><p>Humidity: Low</p></li>
+              <li><p>Pet Friendly: No</p></li>
             </ul>
             <p>Origin: Mexico, Central America, and the Caribbean</p>
             <p>
