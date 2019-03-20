@@ -115,6 +115,46 @@ switch(THIS_PAGE){
     case 'chinese_money_plant.php':
         $title = 'Chinese Money Plant - Jane\'s Grow Space';
         break;
+
+    case 'oak_leaf_philodendron.php':
+        $title = 'Oak Leaf Philodendron - Jane\'s Grow Space';
+        break;
+
+    case 'frangipani.php':
+        $title = 'Frangipani - Jane\'s Grow Space';
+        break;
+
+    case 'chinese_evergreen.php':
+        $title = 'Chinese Evergreen - Jane\'s Grow Space';
+        break;
+
+    case 'ficus_audrey.php':
+        $title = 'Ficus Audrey - Jane\'s Grow Space';
+        break;
+
+    case 'button_fern.php':
+        $title = 'Button Fern - Jane\'s Grow Space';
+        break;
+
+    case 'split_leaf_philodendron.php':
+        $title = 'Split Leaf Philodendron - Jane\'s Grow Space';
+        break;
+
+    case 'triostar.php':
+        $title = 'Triostar - Jane\'s Grow Space';
+        break;
+
+    case 'cebu_blue_pothos.php':
+        $title = 'Cebu Blue Pothos - Jane\'s Grow Space';
+        break;
+
+    case 'dwarf_pineapple.php':
+        $title = 'Dwarf Pineapple - Jane\'s Grow Space';
+        break;
+
+    case 'philippine_orchid.php':
+        $title = 'Philippine Orchid - Jane\'s Grow Space';
+        break;
 }
 
 

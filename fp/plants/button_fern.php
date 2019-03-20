@@ -16,7 +16,13 @@
         <aside class="col span_3_of_6">
             <h3 class="cname">Button Fern</h3>
             <h4 class="sname"><em>(Pellaea rotundifolia)</em></h4>
-            <p>Categories: (FILL)</p>
+            <p>Categories:</p>
+            <ul class="ctg-list">
+              <li><p>Maturity Size: Small</p></li>
+              <li><p>Light: Shade, partial shade, indirect sun</p></li>
+              <li><p>Humidity: High</p></li>
+              <li><p>Pet Friendly: Yes</p></li>
+            </ul>
             <p>Origin: Australia and New Zealand</p>
             <p>
                 Description: Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea

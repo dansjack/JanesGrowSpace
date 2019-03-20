@@ -9,9 +9,7 @@
         <!-- START COL -->
         <main class="col span_6_of_6 plant-gallery">
           <fieldset class="sizes">
-            <legend>Sizes</legend>
-            <input class="cb-filter" type="checkbox" name="x-large" value="x-large" />
-            <label class="cb-label">X-Large</label><br />
+            <legend>Maturity Size</legend>
             <input class="cb-filter" type="checkbox" name="large" value="large" />
             <label class="cb-label">Large</label><br />
             <input class="cb-filter" type="checkbox" name="medium" value="medium" />
@@ -19,26 +17,37 @@
             <input class="cb-filter" type="checkbox" name="small" value="small" />
             <label class="cb-label">Small</label>
           </fieldset>
-          <fieldset class="light-level">
-            <legend>Light Level</legend>
-            <input class="cb-filter" type="checkbox" name="low-light" value="low-light" />
-            <label class="cb-label">Low Light</label><br />
-            <input class="cb-filter" type="checkbox" name="high-light" value="high-light" />
-            <label class="cb-label">High Light</label>
+          <fieldset class="light">
+            <legend>Light</legend>
+            <input class="cb-filter" type="checkbox" name="l-shade" value="l-shade" />
+            <label class="cb-label">Shade</label><br />
+            <input class="cb-filter" type="checkbox" name="l-pshade" value="l-pshade" />
+            <label class="cb-label">Partial Shade</label>
+            <input class="cb-filter" type="checkbox" name="l-isun" value="l-isun" />
+            <label class="cb-label">Indirect Sun</label>
+            <input class="cb-filter" type="checkbox" name="l-fsun" value="l-fsun" />
+            <label class="cb-label">Full Sun</label>
           </fieldset>
-          <fieldset class="misc">
-            <legend>Misc</legend>
-            <input class="cb-filter" type="checkbox" name="pet-friendly" value="pet-friendly" />
-            <label class="cb-label">Pet friendly</label><br />
-            <input class="cb-filter" type="checkbox" name="drought-tolerant" value="drought-tolerant" />
-            <label class="cb-label">Drought Tolerant</label>
+          <fieldset class="pet">
+            <legend>Pet Friendly</legend>
+            <input class="cb-filter" type="checkbox" name="pf-yes" value="pf-yes" />
+            <label class="cb-label">Yes</label><br />
+            <input class="cb-filter" type="checkbox" name="pf-no" value="pf-no" />
+            <label class="cb-label">No</label>
+          </fieldset>
+          <fieldset class="humidity">
+            <legend>Humidity</legend>
+            <input class="cb-filter" type="checkbox" name="h-low" value="h-low" />
+            <label class="cb-label">Low</label><br />
+            <input class="cb-filter" type="checkbox" name="h-high" value="h-high" />
+            <label class="cb-label">High</label>
           </fieldset>
 
           <section class="no-touch">
 
             <div class="wrap">
 
-              <div class="box">
+              <div class="box medium l-isun h-low pf-yes">
                 <div class="boxInner">
                   <a href="chinese_money_plant.php">
                   <img src="../images/stock/pileaFree.jpg"
@@ -48,7 +57,7 @@
                 </div>
               </div>
 
-              <div class="box">
+              <div class="box medium l-isun h-high pf-no">
                 <div class="boxInner">
                   <a href="oak_leaf_philodendron.php">
                   <img src="../images/stock/pedatumFree.jpg"
@@ -58,7 +67,7 @@
                 </div>
               </div>
 
-              <div class="box">
+              <div class="box large l-fsun h-low pf-no">
                 <div class="boxInner">
                   <a href="frangipani.php">
                   <img src="../images/stock/plumeriaFree.jpg"
@@ -68,7 +77,7 @@
                 </div>
               </div>
 
-              <div class="box">
+              <div class="box medium l-shade l-pshade l-isun h-low pf-no">
                 <div class="boxInner">
                   <a href="chinese_evergreen.php">
                   <img src="../images/stock/aglaonemaFree.jpg"
@@ -78,7 +87,7 @@
                 </div>
               </div>
 
-              <div class="box">
+              <div class="box large l-isun h-high pf-no">
                 <div class="boxInner">
                   <a href="ficus_audrey.php">
                   <img src="../images/stock/ficusFree.jpg"
@@ -88,7 +97,7 @@
                 </div>
               </div>
 
-              <div class="box">
+              <div class="box small l-shade l-pshade l-isun h-high pf-yes">
                 <div class="boxInner">
                   <a href="button_fern.php">
                   <img src="../images/stock/rotundifoliaFree.jpg"
@@ -98,7 +107,7 @@
                 </div>
               </div>
 
-              <div class="box">
+              <div class="box large l-pshade l-isun h-high pf-no">
                 <div class="boxInner">
                   <a href="split_leaf_philodendron.php">
                   <img src="../images/stock/variegatedFree.jpg"
@@ -108,7 +117,7 @@
                 </div>
               </div>
 
-              <div class="box">
+              <div class="box medium l-pshade l-isun h-high pf-yes">
                 <div class="boxInner">
                   <a href="triostar.php">
                   <img src="../images/stock/stromantheFree.JPG"
@@ -118,7 +127,7 @@
                 </div>
               </div>
 
-              <div class="box">
+              <div class="box small l-pshade l-isun h-high pf-no">
                 <div class="boxInner">
                   <a href="cebu_blue_pothos.php">
                   <img src="../images/stock/epipremnumFree.jpg"
@@ -128,7 +137,7 @@
                 </div>
               </div>
 
-              <div class="box">
+              <div class="box medium l-isun l-fsun h-high pf-yes">
                 <div class="boxInner">
                   <a href="dwarf_pineapple.php">
                   <img src="../images/stock/pineappleFree.jpg"
@@ -138,7 +147,7 @@
                 </div>
               </div>
 
-                <div class="box">
+                <div class="box medium l-isun h-high pf-yes">
                   <div class="boxInner">
                     <a href="philippine_orchid.php">
                       <img src="../images/stock/medinillaFree.jpg"
@@ -157,8 +166,9 @@
 
                   // Get a string of classes for each filter
                   var sizes = $('.sizes input:checked').map(function(){ return "." + this.value; }).get().join();
-                  var lightLevel = $('.light-level input:checked').map(function(){ return "." + this.value; }).get().join();
-                  var misc = $('.misc input:checked').map(function(){ return "." + this.value; }).get().join();
+                  var light = $('.light input:checked').map(function(){ return "." + this.value; }).get().join();
+                  var pet = $('.pet input:checked').map(function(){ return "." + this.value; }).get().join();
+                  var humidity = $('.humidity input:checked').map(function(){ return "." + this.value; }).get().join();
 
 
                   // Start with all plants
@@ -170,13 +180,18 @@
                   }
 
                   // Light level filter
-                  if(lightLevel) {
-                      plants = plants.filter(lightLevel);
+                  if(light) {
+                      plants = plants.filter(light);
                   }
 
-                  // Miscellaneous filter
-                  if(misc) {
-                      plants = plants.filter(misc);
+                  // Pet friendly filter
+                  if(pet) {
+                      plants = plants.filter(pet);
+                  }
+
+                  // Humidity filter
+                  if(humidity) {
+                      plants = plants.filter(humidity);
                   }
 
                   // Hide all
