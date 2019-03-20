@@ -142,8 +142,10 @@ aside hr, main hr {
     display: inline-block;
 }
 
-#product-component-796c85fd6f4 {
+/* Adds padding to buy buttons */
+.buy-button {
     padding-left: 30px;
+    margin-bottom: 30px;
 }
 
 /****************************
@@ -275,18 +277,6 @@ aside hr, main hr {
 
 /****************************
     END IG IFRAME STYLES
- ****************************/
-
-/****************************
-    START BUY BUTTON STYLES
- ****************************/
-
-.buy-button {
-    margin-bottom: 30px;
-}
-
-/****************************
-    END BUY BUTTON STYLES
  ****************************/
 
 /****************************

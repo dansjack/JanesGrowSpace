@@ -1,5 +1,6 @@
 <?PHP include '../includes/config.php';?>
 <?PHP include '../includes/header.php';?>
+
     <!-- PAGE ID -->
     <div class="section group page-ID-container">
         <p class="col span_6_of_6 page-ID">Home > Plants</p>
@@ -150,6 +151,42 @@
             </div>
           </section>
         </main>
+      <script>
+          $(function () {
+              $(':checkbox').change(function () {
+
+                  // Get a string of classes for each filter
+                  var sizes = $('.sizes input:checked').map(function(){ return "." + this.value; }).get().join();
+                  var lightLevel = $('.light-level input:checked').map(function(){ return "." + this.value; }).get().join();
+                  var misc = $('.misc input:checked').map(function(){ return "." + this.value; }).get().join();
+
+
+                  // Start with all plants
+                  var plants =  $('.box');
+
+                  // Size filter
+                  if(sizes) {
+                      plants = plants.filter(sizes);
+                  }
+
+                  // Light level filter
+                  if(lightLevel) {
+                      plants = plants.filter(lightLevel);
+                  }
+
+                  // Miscellaneous filter
+                  if(misc) {
+                      plants = plants.filter(misc);
+                  }
+
+                  // Hide all
+                  $('.box').hide();
+                  // Show filtered results
+                  plants.show();
+                  console.log(plants.length);
+              });
+          });
+      </script>
         <!-- END COL -->
     </div>
     <!--START FOOTER HERE-->

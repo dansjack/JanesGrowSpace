@@ -12,6 +12,7 @@
   <?php echo $fp_css; ?>
   <?php echo $contact_form_css; ?>
   <?php echo $plants_css; ?>
+  <script <?php echo $jquery; ?>></script>
   <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates%7CUbuntu%7COswald" rel="stylesheet">
 </head>
 
@@ -23,10 +24,6 @@
       <a <?php echo $home; ?>><h1 id="banner-heading">Jane's Grow Space</h1></a>
       <nav id="navbar" class="navbar navbar-scroll-color"> <!-- + class="sticky" onScroll-->
           <?=makeLinks($nav)?>
-<!--        <a href="index.php"><span>Home</span></a>-->
-<!--        <a href="plants.php"><span>Plants</span></a>-->
-<!--        <a href="resources.php"><span>Resources</span></a>-->
-<!--        <a href="contact.php"><span>Contact</span></a>-->
         <a href="#shopping_cart"><span><img id="cart-icon" <?php echo $cart_icon; ?> alt="Shopping Cart"></span></a>
         <!--Icons made by Stephen Hutchings from "https://www.flaticon.com/authors/stephen-hutchings" is licensed
          by Creative Commons BY 3.0"-->

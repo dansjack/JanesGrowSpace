@@ -34,6 +34,7 @@ $meta_keywords = "";
 $plants_css = "";
 $contact_form_css = "";
 $ajax = "";
+$jquery = "";
 
 
 //get URL and compare to array of top level URLs
@@ -108,11 +109,7 @@ switch(THIS_PAGE){
         $title = 'Plants - Jane\'s Grow Space';
         $plants_css = '<link rel="stylesheet" href="../css/plants.css" />' . "\n";
         $ajax = 'src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"';
-        break;
-
-    case 'plants_test.php':
-        $plants_css = '<link rel="stylesheet" href="../css/plants.css" />' . "\n";
-        $ajax = 'src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"';
+        $jquery = 'src="http://code.jquery.com/jquery-1.11.0.min.js"';
         break;
 
     case 'chinese_money_plant.php':
