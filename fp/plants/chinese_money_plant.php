@@ -16,7 +16,13 @@
         <aside class="col span_3_of_6">
             <h3 class="cname">Chinese Money Plant</h3>
             <h4 class="sname"><em>(Pilea peperomioides)</em></h4>
-            <p>Category: </p>
+            <p>Categories:</p>
+            <ul class="ctg-list">
+              <li><p>Maturity Size: (FILL)</p></li>
+              <li><p>Light: (FILL)</p></li>
+              <li><p>Humidity: (FILL)</p></li>
+              <li><p>Pet Friendly: (FILL)</p></li>
+            </ul>
             <p>Origin: China (Yunnan Province)</p>
             <p>
               Description: Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea
