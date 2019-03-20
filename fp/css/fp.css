@@ -38,7 +38,7 @@ header > a {
 
 
 .hdr-bg-img {
-    background-image: url("../images/stock/plants-stock-8.jpg") !important;
+    background-image: url("../images/stock/banner-image.jpg") !important;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -47,7 +47,7 @@ h1 {
     text-align: center;
 }
 
-h1, h2, h3, h4, p {
+p {
     font-family: 'Montserrat Alternates', sans-serif;
     color: #F9E7E7;
 }
@@ -90,8 +90,9 @@ footer {
     text-align: center;
 }
 
-footer p {
+footer p, h1, h2, h3, h4, label {
     color: #FFBF00;
+    font-family: 'Montserrat Alternates', sans-serif;
 }
 
 
@@ -229,6 +230,7 @@ aside hr, main hr {
     margin-top: 0;
     padding-right: 30px;
     list-style-type: none;
+    font-family: "Montserrat Alternates", sans-serif;
 }
 
 .resources-aside ul, .resources-aside a {

@@ -6,12 +6,23 @@ form input {
     font-size: 16px;
 }
 
-form label {
+form label, form legend {
     font-size: 24px;
+    color: #FFBF00;
 }
-form label, form legend, form fieldset {
-    color: #F9E7E7;
 
+form fieldset {
+    color: #F9E7E7;
+    font-family: "Ubuntu", sans-serif;
+}
+
+form legend {
+    text-align: center;
+}
+
+select {
+    background: #F9E7E7;
+    color: #2274A5;
 }
 
 label, input, legend {
@@ -26,6 +37,11 @@ form input[type='text'], form input[type='email'] {
 
 input[type='text']:focus, form input[type='email']:focus, textarea:focus {
     background-color: #F9E7E7;
+}
+
+input[type='submit'] {
+    background-color: #F9E7E7;
+    color: #2274A5;
 }
 
 textarea {
