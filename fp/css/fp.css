@@ -117,13 +117,13 @@ footer p, h1, h2, h3, h4, label {
 }
 
 footer a:link, footer a:visited {
-    color: #FFBF00;
+    color: #F9E7E7;
     text-decoration: none;
 }
 
 footer a:hover, footer a:active {
-    color: #E83F6F;
     text-decoration: underline;
+    text-decoration-color: #E83F6F;
 }
 
 .footer-icons {

@@ -174,7 +174,7 @@ section.no-touch .boxInner:hover .titleBox, section.touch .boxInner.touchFocus .
     }
 
     .cb-container fieldset:nth-child(1) {
-        padding-top: 17px;
+        padding-top: 18px;
         margin-left: 2%;
     }
 
@@ -185,12 +185,12 @@ section.no-touch .boxInner:hover .titleBox, section.touch .boxInner.touchFocus .
     }
 
     .cb-container fieldset:nth-child(3) {
-        padding-top: 36px;
+        padding-top: 39px;
 
     }
 
     .cb-container fieldset:nth-child(4) {
-        padding-top: 36px;
+        padding-top: 39px;
     }
 
     .cb-container legend {

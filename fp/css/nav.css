@@ -19,13 +19,17 @@ nav a {
   font-weight: 700;
   font-size: 20px;
   padding: 5px 0;
+  text-shadow: 2px 2px 5px #E83F6F;
+
 }
 
 nav a:hover {
-  text-shadow: 2px 2px 5px #E83F6F;
+  color: #E83F6F;
+  text-shadow: 2px 2px 5px #F9E7E7;
 }
 nav a:active {
-  text-shadow: 2px 2px 5px #E83F6F;
+  color: #E83F6F;
+  text-shadow: 2px 2px 5px #F9E7E7;
 }
 
 #banner-heading {
