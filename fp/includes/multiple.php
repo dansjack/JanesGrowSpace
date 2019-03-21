@@ -42,8 +42,9 @@ if ($response != null && $response->success)
     <!-- START HTML FEEDBACK -->
     <div class="contact-feedback">
         <h2>Your Comments Have Been Received!</h2>
-        <p>Thanks for the input!</p>
-        <p>I'll respond via email within 48 hours, if you requested information.</p>
+        <p>Thank you for leaving a comment or asking a question!</p>
+        <p>I'll respond via email within 48 hours, if you requested information or are interested in the Plant Doctor
+          service.</p>
     </div>    
     <!-- END HTML FEEDBACK -->        
     <?php
@@ -86,7 +87,7 @@ if ($response != null && $response->success)
 	<div>
     <br  />
 		<fieldset>
-			<legend>What Do You Need?</legend>
+			<legend>How Can I Help?</legend>
 			<input type="checkbox" name="Interested_In[]" value="More info on plant" tabindex="40" /> More Info on a Plant
       <br />
 			<input type="checkbox" name="Interested_In[]" value="Plant Doctor" /> Plant Doctor Service <br />

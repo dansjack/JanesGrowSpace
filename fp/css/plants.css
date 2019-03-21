@@ -62,6 +62,10 @@ section.no-touch .boxInner:hover .titleBox, section.touch .boxInner.touchFocus .
     margin-bottom: 0;
 }
 
+.force-cart {
+    display: none;
+}
+
 
 @media only screen and (max-width : 480px) {
     /* Smartphone view: 1 tile */
@@ -122,11 +126,82 @@ section.no-touch .boxInner:hover .titleBox, section.touch .boxInner.touchFocus .
   START CUSTOM GALLERY STYLES
  ****************************/
 
+
+
 @media all and (max-width:768px) {
     /* Adds plant names to bottom of plant image by default */
     .titleBox {
         margin-bottom: 0!important;
     }
+
+    .cb-container fieldset {
+        font-family: "ubuntu", sans-serif;
+        text-align: left;
+        margin: 0 30px 10px 30px;
+    }
+
+    .cb-container fieldset:nth-child(1) {
+        margin-top: 10px;
+    }
+
+    .cb-container fieldset:nth-child(4) {
+        margin-bottom: 20px;
+    }
+
+    .cb-container legend {
+        color: #FFBF00;
+        text-align: center;
+    }
+
+    .cb-container label {
+        color: #F9E7E7;
+    }
+}
+
+@media all and (min-width:769px) {
+    /* Adds plant names to bottom of plant image by default */
+    /* Styles Checkboxs */
+    .cb-container {
+        text-align: center;
+    }
+
+    .cb-container fieldset {
+        font-family: "ubuntu", sans-serif;
+        display: inline;
+        margin-bottom: 10px;
+        text-align: left;
+        margin-right: 2%
+    }
+
+    .cb-container fieldset:nth-child(1) {
+        padding-top: 17px;
+        margin-left: 2%;
+    }
+
+    .cb-container fieldset:nth-child(2) {
+        padding-top: 0;
+        margin-top: 10px;
+
+    }
+
+    .cb-container fieldset:nth-child(3) {
+        padding-top: 36px;
+
+    }
+
+    .cb-container fieldset:nth-child(4) {
+        padding-top: 36px;
+    }
+
+    .cb-container legend {
+        color: #FFBF00;
+        text-align: center;
+    }
+
+    .cb-container label {
+        color: #F9E7E7;
+    }
+
 }
 /****************************
    END CUSTOM GALLERY STYLES

@@ -12,7 +12,7 @@
     <!-- END RIGHT COL -->
     <!-- START LEFT COL -->
     <aside class="col span_2_of_6">
-      <h3>Aside</h3>
+      <h3>About Jane</h3>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
         dolore magna aliqua. Tristique risus nec feugiat in fermentum posuere urna nec tincidunt. Et netus et
