@@ -24,10 +24,6 @@
           <a href="plants/plants.php"><span>Plants</span></a>
           <a href="resources.php"><span>Resources</span></a>
           <a href="contact.php"><span>Contact</span></a>
-          <a href="#shopping_cart"><span><img id="cart-icon" src="images/icons/shopping-cart.svg" alt="Shopping Cart
-          icon"></span></a>
-          <!--Icons made by Stephen Hutchings from "https://www.flaticon.com/authors/stephen-hutchings" is licensed
-           by Creative Commons BY 3.0"-->
           <a href="#" class="icon" onclick="responsiveNav()">☰</a>
         </nav>
         <p id="content-start"></p>
@@ -41,7 +37,7 @@
   </div>
   <div class="section group main-aside">
     <!-- START LEFT COL -->
-    <main class="col span_4_of_6">
+    <main class="col span_4_of_6 main-two-col">
       <h2>Main</h2>
       <p>Stare at ceiling attack the child or murr i hate humans they are so annoying eat the rubberband.
         Asdflkjaertvlkjasntvkjn (sits on keyboard) soft kitty warm kitty little ball of furr, step on your keyboard
