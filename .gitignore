@@ -25,3 +25,4 @@ test/test2.html
 *.iml
 test/css/test2.css
 fp/includes/credentials.php
+.DS_Store
