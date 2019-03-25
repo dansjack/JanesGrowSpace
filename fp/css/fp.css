@@ -17,10 +17,6 @@ html {
     scroll-behavior: smooth;
 }
 
-body {
-    margin: 8px!important;
-}
-
 .wrapper {
     margin: auto;
 }
@@ -320,6 +316,10 @@ footer > p > a:last-of-type {
 
     .header {
         height: 360px;
+    }
+
+    body {
+        margin: 8px!important;
     }
 
 }
