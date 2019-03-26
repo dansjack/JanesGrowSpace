@@ -12,8 +12,7 @@
       <p>
         <small>&copy; <?php echo date("Y");?> by <a <?php echo $footer_contact; ?> target="_blank">Janey Jack</a>, All
           Rights
-          Reserved ~ <a href="http://validator.w3.org/check/referer" target="_blank">Valid HTML</a> ~
-          <a href="http://jigsaw.w3.org/css-validator/check?uri=referer" target="_blank">Valid CSS</a>
+          Reserved
         </small>
       </p>
     </footer>
